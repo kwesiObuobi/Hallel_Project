@@ -2,9 +2,14 @@ import React from 'react'
 
 import './staff_page.css'
 
+import staffPageImg from '../../../assets/images/website_images/staff.jpg'
+import PageImg from '../../shared/page_img/page_img'
+
 const StaffPage = () => {
   return (
-    <div>StaffPage</div>
+    <>
+      <PageImg img_url={staffPageImg} title="Staff" />
+    </>
   )
 }
 
