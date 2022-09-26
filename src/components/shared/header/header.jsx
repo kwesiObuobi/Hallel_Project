@@ -7,7 +7,29 @@ import { GrClose } from "react-icons/gr";
 import './header.css';
 import school_logo from '../../../assets/images/school_logo.jpg';
 
+
 const Header = () => {
+
+  const [windowDimension, detectHW] = useState({
+    winWidth: window.innerWidth,
+    winHeight: window.innerHeight,
+  })
+
+  const detectSize = () => {
+    detectHW({
+      winWidth: window.innerWidth,
+      winHeight: window.innerHeight,
+    })
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', detectSize)
+    console.log(windowDimension.winWidth)
+
+    return() => {
+      window.removeEventListener('resize', detectSize)
+    }
+  }, [windowDimension])
 
   const navRef = useRef();
   const showMobileNav = () => {
@@ -23,6 +45,11 @@ const Header = () => {
       
       console.log(addedMobileNavClass);
   }, [addedMobileNavClass])
+
+  
+
+
+
   
   return (
     <header>
@@ -50,8 +77,8 @@ const Header = () => {
           <div className="container header__nav-container">
 
             <ul className="header__nav-menu">
-              { (addedMobileNavClass === true) && <li><Link to="/" className="active" onClick={showMobileNav}>HOME</Link></li>}
-              <li><Link to="/about" className="active">ABOUT</Link></li>
+              { (addedMobileNavClass === true && windowDimension.winWidth < 1000) && <li><Link to="/" className="active" onClick={showMobileNav}>HOME</Link></li>}
+              <li><Link to="/about" className="active" onClick={showMobileNav}>ABOUT</Link></li>
               <li><Link to="/admissions" onClick={showMobileNav}>ADMISSIONS</Link></li>
               <li><Link to="/academics" onClick={showMobileNav}>ACADEMICS</Link></li>
               <li><Link to="/gallery" onClick={showMobileNav}>GALLERY</Link></li>
