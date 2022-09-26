@@ -1,0 +1,248 @@
+header {
+    height: calc(100vh * 0.2);
+}
+
+.header__container {
+    height: 100%;
+}
+  
+.header__brand-row-container {
+    background: var(--color-light-heavy);
+    height: 70%;
+}
+
+.header__brand-row {
+    display: flex;
+    padding: 0.1rem;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+}
+  
+.header__logo-and-motto-box {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    height: 100%;
+}
+  
+#header__logo {
+    display: block;
+    background: transparent;
+    width: 20%;
+    height: 100%;
+}
+
+.header__logo-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#header__school-name {
+    color: var(--color-hallel-orange1);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  
+#header__slogan {
+    font-size: 0.7rem;
+    margin-left: 2rem;
+}
+
+.header__slogan-for-mobile {
+    display: none; 
+}
+
+.header__nav {
+    background: var(--color-hallel-orange1);
+    max-width: 100vw;
+    z-index: 11;
+    height: 30%;
+    display: grid;
+    place-items: center;
+    /* box-shadow: x-axis, y-axis, blur, color */
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.header__nav-container {
+    width: var(--container-width-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+ 
+.header__nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.header__nav-menu li a {
+    color: var(--color-white);
+    font-weight: 400;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding: 0.2rem;
+}
+
+.header__nav-menu li a:hover{
+    color: var(--color-hallel-wine2);
+}
+
+.header__nav-menu li a.active::after {
+    content: '';
+    display: block;
+    background: var(--color-white);
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1px;
+}
+
+/* NAVBAR */
+.header__nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+.header__nav-close-btn {
+    display: none;
+}
+  
+
+@media screen and (max-width: 1000px) {
+
+    header {
+        height: calc((100vh * 0.2) - 30%);
+    }
+
+    .header__nav-btn {
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+    .header__nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        background: var(--color-hallel-orange1);
+        transition: 1s;
+        transform: translateY(-120vh); /*we're hiding it -11vh */
+    }
+
+    .header__mobile_nav {
+        transform: none; /* cancel the -110vh transformation */
+    }
+
+    .header__nav-menu {
+        flex-direction: column;
+        gap: 0;
+        height: 50%;
+    }
+
+    .header__nav-close-btn, .header__nav-open-btn {
+        position: absolute;
+    }
+
+    .header__nav-close-btn {
+        display: inline-block;
+        color: white;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .header__nav-open-btn {
+        color: var(--color-hallel-orange1);
+        top: calc((100vh * 0.2) - 0.5);
+        right: 0;
+    }
+
+    .header__nav-menu li a:hover {
+        color: var(--color--hallel-wine2);
+    }
+
+    .header__nav-menu li a.active::after {
+        display: none;
+    }
+
+    .header__nav-menu li a.active {
+        background: white;
+        border-radius: 2rem;
+        color: var(--color-hallel-wine2);
+        padding: 0.5rem;
+        font-weight: bolder;
+    }
+
+    .header__brand-row {
+        position: relative;
+    }
+    
+    .header__how-to-apply {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    header {
+        height: calc((100vh * 0.2) - 30% + 1.5rem); /* the slogan for mobile is 1.5rem height */
+    }
+
+    #header__school-name {
+        font-size: 1rem;
+    }
+
+    .header__logo-and-motto-box {
+        max-width: 80%;
+    }
+
+    #header__slogan {
+        display: none;
+        margin-left: 0.5rem;
+    }
+
+    #header__logo {
+        height: 100%;
+    }
+
+    .header__slogan-for-mobile {
+        display: block;
+        background: var(--color-light-heavy);
+        text-align: center;
+        border-top: solid 0.01rem grey; 
+        border-color: rgb(161, 148, 148, 0.5);
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 0.6rem;
+        font-weight: 500;
+        opacity: 0.8;
+        max-height: 1.5rem;
+    }
+}
+
+
+  

@@ -1,0 +1,121 @@
+.home__testimonial-outer-box {
+    max-width: 100vw;
+    overflow: hidden;
+    background: var(--color-hallel-orange1);
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.home__testimonial-h2, .home__testimonial-h5 {
+    color: white;
+}
+
+.home__testimonial-h2::after {
+    background: white;
+}
+
+.home__testimonial-slide-container {
+    width: 70%;
+    background: transparent;
+    height: 26rem;
+    margin: 2rem auto 4rem;
+    padding-bottom: 1rem; /* was 2rem */
+}
+
+.home__tesimonial-avatar-img {
+    display: block;
+    width: 6rem; 
+    height: 32%; 
+    aspect-ratio: 1/1; 
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 0.5rem; /* top, left&right, bottom */
+    border: 0.4rem solid var(--color-hallel-orange1);
+    margin-top: 3rem;
+}
+
+.home__item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home__testimonial-item {
+    background: var(--color-hallel-wine1);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    height: 100%;
+    width: 100%;
+}
+
+.home__testimonial-msg {
+    color: var(--color-white);
+    display: block;
+    font-weight: 300;
+    width: 95%;
+    height: 42%; /* was 40 */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.home__testimonial-author-name {
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0.2rem;
+    display: block;
+    height: 10%;
+  
+    overflow: hidden;
+}
+
+.home__testimonial-author-title {
+    color: darkgrey;
+    display: block;
+    height: 5%;
+  }
+
+
+.swiper-pagination-bullet {
+    background: var(--color-hallel-wine2);
+    display: inline-block;
+}
+
+/* ============== MEDIA QUERIES (TABLETS)=============================== */
+@media screen and (max-width: 1024px) {
+    .home__tetimonial-msg, .home__testimonial-title {
+        font-size: 1rem;
+    }
+    
+    .home__testimonial-author-name {
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+}
+
+
+/* ============== MEDIA QUERIES (TABLETS)=============================== */
+@media screen and (max-width: 600px) {
+    .home__testimonial-h5 {
+      font-size: 0.9rem;
+    }
+  
+    
+  
+    .home__testimonial-msg {
+      width: 100%;
+      font-size: 0.9rem; /*0.8*/
+      text-align: center;
+    }
+  
+    
+}
+
+
+
+
+
+

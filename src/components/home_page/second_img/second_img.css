@@ -1,0 +1,32 @@
+.secondary-home-img-container {
+    max-width: 100vw;
+    height: calc(100vh * 0.75);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+
+/* ============== MEDIA QUERIES (TABLETS)=============================== */
+@media screen and (max-width: 1000px) {
+
+    .secondary-home-img-container {
+      height: calc(100vh * 0.60);
+    }
+  
+}
+
+/* ============== MEDIA QUERIES (MOBILE PHONES)=============================== */
+@media screen and (max-width: 1000px) {
+
+    .secondary-home-img-container {
+      height: calc(100vh * 0.50);
+    }
+}
+
+
+

@@ -1,0 +1,121 @@
+.home__notifications {
+    padding: 0 2rem;
+}
+
+.home__filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.home__filter-btn {
+    background: rgba(0,0,0,0.2);
+    margin: 0.45rem 0.4rem;
+    padding: 0.85rem 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    line-height: 1;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: var(--transition);
+    letter-spacing: 0.08rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.home__filter-btn:hover {
+    background: transparent;
+    outline: solid 1px rgba(0,0,0,0.2);
+}
+
+.home__active-filter-btn {
+    background: var(--color-hallel-orange1);
+    color: white;
+}
+
+.home__active-filter-btn:hover {
+    background: var(--color-hallel-orange1);
+    color: white;
+    outline: none;
+}
+
+.home__events-announcements {
+    padding-bottom: 2rem;
+    user-select: none;
+    background: transparent;
+}
+
+.home__notification-item {
+    border: solid 1px #ddd;
+    margin: 1rem 0;
+    width: 100%;
+    height: 20rem;
+    background: var(--color-hallel-wine1);
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.home__program-date {
+    height: 10%;
+    color: rgb(245, 237, 237);
+    padding: 0 0.2rem;
+    text-align: center;
+}
+  
+.home__program-img {
+    background: transparent;
+    height: 65%;
+    overflow: hidden;
+}
+  
+.home__item-img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+  
+.home__program-title {
+    height: 25%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: 500; */
+    font-size: 0.9rem;
+    overflow: hidden;
+    padding: 0 0.2rem;
+    color: white;
+}
+
+
+/* ============== MEDIA QUERIES (TABLETS)=============================== */
+@media screen and (max-width: 1024px) {
+
+    .home__filter {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.3rem;
+      justify-content: center;
+      justify-items: center;
+      align-content: center;
+    }
+  
+    .home__filter button {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+}
+
+/* ============== MEDIA QUERIES (PHONE)=============================== */
+@media screen and (max-width: 600px) {
+
+    .home__filter button {
+      font-size: 0.7rem;
+    }
+  
+  }
+  

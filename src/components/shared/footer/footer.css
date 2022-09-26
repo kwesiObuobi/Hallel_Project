@@ -1,0 +1,154 @@
+
+
+
+
+.footer-section {
+    background: #333;
+    opacity: 0.7;
+    max-width: 100vw;
+    padding: 4rem 2rem;
+}
+  
+.footer-h3 {
+    margin-bottom: 1rem;
+    color: var(--color-light);
+}
+  
+.footer-h4 {
+    margin: 0 0 1rem;
+    color: white;
+    font-weight: 900;
+  }
+  
+.footer__quick-links-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+  
+.footer__quick-link-box, .footer__contact-us-box {
+    /* border: 1px solid pink; */
+    padding: 0.8rem;
+  }
+  
+.footer-p, .footer-ul, .footer-li {
+    color: var(--color-light);
+    font-weight: 50;
+    color: white;
+}
+  
+.footer__contact-us-container {
+    margin-top: 3rem;
+}
+  
+.footer__contact-us-grid-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem
+}
+  
+.footer__logo-and-sch-name-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+  
+.footer-logo-box {
+    width: 70%;
+    height: 70%;
+    overflow: hidden;
+}
+  
+.footer-logo {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1.1;
+    object-fit: contain;
+}
+  
+#footer__hallel-school-complex {
+    color: white;
+    margin-bottom: 0;
+  }
+  
+.footer__aside {
+    color: white;
+    opacity: 0.7;
+}
+  
+.footer__social-media-box {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+  
+.footer__image-box {
+    /* border: 1px solid blue; */
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    filter: grayscale(70%);
+    /* padding: 0.2rem; */
+}
+  
+.footer__image-box:hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+  
+  #fb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  /* ==================== MEDIA QUERIES ====================== */
+  @media screen and (max-width: 1000px) {
+    .footer__contact-us-grid-box, .footer__quick-links-grid-container {
+      grid-template-columns: 1fr 1fr;
+      gap: 0.2rem;
+      padding: 0.6rem;
+    }
+  
+    .footer__image-box {
+      filter: grayscale(0%);
+    }
+  
+    .footer__logo-and-sch-name-container {
+      grid-template-columns: 50% 50%;
+    }
+  
+    .footer__social-media-box {
+      display: grid;
+      grid-auto-flow: column;
+    }
+  }
+  
+  /* ============================================== */
+  
+  @media screen and (max-width: 600px) {
+  
+    .footer__contact-us-container, .footer__quick-links-container {
+      text-align: center;
+    }
+  
+    .footer__contact-us-grid-box, .footer__quick-links-grid-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .footer__logo-and-sch-name-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+  }
+  

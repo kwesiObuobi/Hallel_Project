@@ -1,0 +1,9 @@
+1-5 homeCarousel1......5
+6 homeScreenSecondImage.jpg
+7 aboutUs.jpg
+8 admissions.jpg
+9 academics.jpg
+10 gallery
+11 staff
+12 student
+13 contactUs.jpg

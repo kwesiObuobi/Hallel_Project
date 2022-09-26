@@ -1,0 +1,28 @@
+.home__newsletter-box {
+    max-width: 100vw;
+    margin-top: 4rem;
+}
+
+.home__newsletter-section {
+    text-align: center;
+    padding: 1rem;
+}
+
+.home__newsletter-form {
+    text-align: center;
+    position: relative;
+}
+
+.home__newsletter-email {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid #333;
+    background: transparent;
+    margin: 2rem 0;
+}
+
+
+
