@@ -7,7 +7,7 @@ import PageImg from '../../shared/page_img/page_img'
 
 const AboutPage = () => {
   return (
-    <PageImg />
+    <PageImg img_url={aboutPageImg} title="About Us" />
   )
 }
 

@@ -40,4 +40,41 @@
     animation: point_down 2s infinite;
 }
 
+@keyframes point_down {
+    0% { bottom: 1.5rem; }
+    50% { bottom: 0.5rem;}
+    100% { bottom: 1.5rem; }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .page_img-scroll-down-pointer, .page_img-overlay-img {
+        display: none;
+    }
+
+    .page_img-section-container {
+        height: calc(100vh * 0.6);
+    }
+
+    .page_img-box {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+
+    .page_img-section-container {
+        height: calc(100vh * 0.5);
+    }
+
+    .page_img-box {
+        height: 100%;
+    }
+    
+}
+
+
+
 
