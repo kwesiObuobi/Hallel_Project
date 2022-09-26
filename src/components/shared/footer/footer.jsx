@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 import './footer.css';
 
 import fbImg from '../../../assets/images/website_images/social_media/facebook.jpg';
@@ -7,6 +9,13 @@ import linkedInImg from '../../../assets/images/website_images/social_media/link
 import twitterImg from '../../../assets/images/website_images/social_media/twitter.jpg';
 import ytdImg from '../../../assets/images/website_images/social_media/youtube.jpg';
 import schoolLogo from '../../../assets/images/school_logo.jpg';
+
+
+const scrollToTop = () => {
+  document.body.scrollTop = 0; //for Safari
+  document.documentElement.scrollTop = 0; // for chrome, firefox, IE, opera
+}
+
 
 const Footer = () => {
   return (
@@ -20,17 +29,17 @@ const Footer = () => {
             <div className="footer__quick-link-box">
               <h4 className="footer-h4">New Here?</h4>
               <ul className="footer-ul">
-                <li className="footer-li">About Us</li>
-                <li className="footer-li">Admissions</li>
-                <li className="footer-li">Gallery</li>
+                <li className="footer-li"><Link to="/about" onClick={scrollToTop}>About Us</Link></li>
+                <li className="footer-li"><Link to="/admissions" onClick={scrollToTop}>Admissions</Link></li>
+                <li className="footer-li"><Link to="/gallery" onClick={scrollToTop}>Gallery</Link></li>
               </ul>
             </div>
             <div className="footer__quick-link-box">
               <h4 className="footer-h4">School</h4>
               <ul className="footer-ul">
-                <li className="footer-li">Academics</li>
-                <li className="footer-li">Student</li>
-                <li className="footer-li">Staff</li>
+                <li className="footer-li"><Link to="/academics" onClick={scrollToTop}>Academics</Link></li>
+                <li className="footer-li"><Link to="/student" onClick={scrollToTop}>Student</Link></li>
+                <li className="footer-li"><Link to="/staff" onClick={scrollToTop}>Staff</Link></li>
               </ul>
             </div>
           </div>

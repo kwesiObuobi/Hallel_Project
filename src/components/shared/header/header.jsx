@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom';
+
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 
@@ -17,7 +19,8 @@ const Header = () => {
   useEffect(() => {
     navRef.current.classList.contains("header__mobile_nav") ?
       setAddedMobileNavClass(true) :
-      setAddedMobileNavClass(false);
+        setAddedMobileNavClass(false);
+      
       console.log(addedMobileNavClass);
   }, [addedMobileNavClass])
   
@@ -27,11 +30,11 @@ const Header = () => {
         <div className="header__brand-row-container">
           <div className="container header__brand-row">
             <div className="header__logo-and-motto-box">
-              <a href="/" id="header__logo">
+              <Link to="/" id="header__logo">
                 <img className="header__logo-img" src={school_logo} alt="School Logo" title="Hallel School Complex" />
-              </a>
+              </Link>
               <div className="header__school-name-and-motto-box">
-                <h3 id="header__school-name">Hallel School Complex</h3>
+                <Link to="/"><h3 id="header__school-name">Hallel School Complex</h3></Link>
                 <aside id="header__slogan">...Joy Of A Solid Childhood Foundation!</aside>
               </div>
             </div>
@@ -47,14 +50,14 @@ const Header = () => {
           <div className="container header__nav-container">
 
             <ul className="header__nav-menu">
-              { (addedMobileNavClass === true) && <li><a href="/" className="active">HOME</a></li>}
-              <li><a href="/">ABOUT</a></li>
-              <li><a href="/">ADMISSIONS</a></li>
-              <li><a href="/">ACADEMICS</a></li>
-              <li><a href="/">GALLERY</a></li>
-              <li><a href="/">STAFF</a></li>
-              <li><a href="/">STUDENT</a></li>
-              <li><a href="/">CONTACT</a></li>
+              { (addedMobileNavClass === true) && <li><Link to="/" className="active" onClick={showMobileNav}>HOME</Link></li>}
+              <li><Link to="/about" className="active">ABOUT</Link></li>
+              <li><Link to="/admissions" onClick={showMobileNav}>ADMISSIONS</Link></li>
+              <li><Link to="/academics" onClick={showMobileNav}>ACADEMICS</Link></li>
+              <li><Link to="/gallery" onClick={showMobileNav}>GALLERY</Link></li>
+              <li><Link to="/staff" onClick={showMobileNav}>STAFF</Link></li>
+              <li><Link to="/student" onClick={showMobileNav}>STUDENT</Link></li>
+              <li><Link to="/contact" onClick={showMobileNav}>CONTACT</Link></li>
 
               <button className="header__nav-btn header__nav-close-btn" onClick={showMobileNav}>
                 {<GrClose />}

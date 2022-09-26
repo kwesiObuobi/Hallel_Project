@@ -92,6 +92,9 @@ header {
     padding: 0.2rem;
 }
 
+/* the 'Link' tag replaces 'a'. 
+I think the styles are maintained
+cos it's still work even after I changed 'a' to 'Link' */
 .header__nav-menu li a:hover{
     color: var(--color-hallel-wine2);
 }
