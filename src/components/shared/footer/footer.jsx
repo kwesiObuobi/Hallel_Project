@@ -1,7 +1,6 @@
 import React from 'react'
 import './footer.css';
 
-// facebook, instagram, linkedin, twitter, youtube
 import fbImg from '../../../assets/images/website_images/social_media/facebook.jpg';
 import instaImg from '../../../assets/images/website_images/social_media/instagram.jpg';
 import linkedInImg from '../../../assets/images/website_images/social_media/linkedin.jpg';

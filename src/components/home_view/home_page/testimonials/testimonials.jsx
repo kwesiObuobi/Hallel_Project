@@ -9,21 +9,21 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/pagination";
 
-import "../../../styles.css";
+import "../../../../styles.css";
 
 // import required modules
 import { Pagination } from "swiper";
 
 
-import testi1 from '../../../assets/images/uploads/testimonials/parent1.jpg';
-import testi2 from '../../../assets/images/uploads/testimonials/student2.jpg';
-import testi3 from '../../../assets/images/uploads/testimonials/teacher3.jpg';
-import testi4 from '../../../assets/images/uploads/testimonials/parent1.jpg';
-import testi5 from '../../../assets/images/uploads/testimonials/student2.jpg';
-import testi6 from '../../../assets/images/uploads/testimonials/teacher3.jpg';
-import testi7 from '../../../assets/images/uploads/testimonials/parent1.jpg';
-import testi8 from '../../../assets/images/uploads/testimonials/student2.jpg';
-import testi9 from '../../../assets/images/uploads/testimonials/teacher3.jpg';
+import testi1 from '../../../../assets/images/uploads/testimonials/parent1.jpg';
+import testi2 from '../../../../assets/images/uploads/testimonials/student2.jpg';
+import testi3 from '../../../../assets/images/uploads/testimonials/teacher3.jpg';
+import testi4 from '../../../../assets/images/uploads/testimonials/parent1.jpg';
+import testi5 from '../../../../assets/images/uploads/testimonials/student2.jpg';
+import testi6 from '../../../../assets/images/uploads/testimonials/teacher3.jpg';
+import testi7 from '../../../../assets/images/uploads/testimonials/parent1.jpg';
+import testi8 from '../../../../assets/images/uploads/testimonials/student2.jpg';
+import testi9 from '../../../../assets/images/uploads/testimonials/teacher3.jpg';
 
 
 

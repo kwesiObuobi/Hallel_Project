@@ -8,20 +8,19 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/pagination";
 
-import "../../../styles.css";
+import "../../../../styles.css";
 
 // import required modules
 import { Pagination } from "swiper";
 
 
-
-import ann1 from '../../../assets/images/uploads/events-announcements/announcements/vacation.jpg';
-import ann2 from '../../../assets/images/uploads/events-announcements/announcements/holiday.jpg';
-import ann3 from '../../../assets/images/uploads/events-announcements/announcements/cleaning.jpg';
-import ann4 from '../../../assets/images/uploads/events-announcements/announcements/vacation.jpg';
-import ann5 from '../../../assets/images/uploads/events-announcements/announcements/cleaning.jpg';
-import ann6 from '../../../assets/images/uploads/events-announcements/announcements/holiday.jpg';
-import ann7 from '../../../assets/images/uploads/events-announcements/announcements/cleaning.jpg';
+import ann1 from '../../../../assets/images/uploads/events-announcements/announcements/vacation.jpg';
+import ann2 from '../../../../assets/images/uploads/events-announcements/announcements/holiday.jpg';
+import ann3 from '../../../../assets/images/uploads/events-announcements/announcements/cleaning.jpg';
+import ann4 from '../../../../assets/images/uploads/events-announcements/announcements/vacation.jpg';
+import ann5 from '../../../../assets/images/uploads/events-announcements/announcements/cleaning.jpg';
+import ann6 from '../../../../assets/images/uploads/events-announcements/announcements/holiday.jpg';
+import ann7 from '../../../../assets/images/uploads/events-announcements/announcements/cleaning.jpg';
 
 const HomeNotifications = () => {
 

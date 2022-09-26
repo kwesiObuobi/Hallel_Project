@@ -13,11 +13,17 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 import { AiOutlineArrowDown } from "react-icons/ai";
 
-import Carousel1 from "../../../../src/assets/images/website_images/homeCarousel1.jpg";
-import Carousel2 from "../../../../src/assets/images/website_images/homeCarousel2.jpg";
-import Carousel3 from "../../../../src/assets/images/website_images/homeCarousel3.jpg";
-import Carousel4 from "../../../../src/assets/images/website_images/homeCarousel4.jpg";
-import Carousel5 from "../../../../src/assets/images/website_images/homeCarousel5.jpg";
+import Carousel1 from '../../../../assets/images/website_images/homeCarousel1.jpg';
+import Carousel2 from '../../../../assets/images/website_images/homeCarousel2.jpg';
+import Carousel3 from '../../../../assets/images/website_images/homeCarousel3.jpg';
+import Carousel4 from '../../../../assets/images/website_images/homeCarousel4.jpg';
+import Carousel5 from '../../../../assets/images/website_images/homeCarousel5.jpg';
+
+// import Carousel1 from "../../../../src/assets/images/website_images/homeCarousel1.jpg";
+// import Carousel2 from "../../../../src/assets/images/website_images/homeCarousel2.jpg";
+// import Carousel3 from "../../../../src/assets/images/website_images/homeCarousel3.jpg";
+// import Carousel4 from "../../../../src/assets/images/website_images/homeCarousel4.jpg";
+// import Carousel5 from "../../../../src/assets/images/website_images/homeCarousel5.jpg";
 
 const caroData = [
   {
@@ -79,16 +85,6 @@ const HomeCarousel = () => {
             )
           })
         }
-
-        {/* <SwiperSlide className="caro__swiper-slide-container">
-          <div className="caro__img-box">
-            <img src={Carousel1} alt="Carousel1" className="caro__img" />
-          </div>
-          <div className="caro__overlay-img"></div>
-          <div className="caro__img-caption-bg-screen"><p>Big Screen will go here. Big Screen captigo here.  Big Screen captigo here.  Big Screen captigo here.  Big Screen captigo here.  Big Screen captigo here. </p></div>
-          <div className="caro__img-caption-sm-screen"><p>Small Screen caption goes here. Small Screen caption goes here. Small Screen caption goes here. Small Screen caption goes here. Small Screen caption goes here. </p></div>
-          <div className="caro__scroll-down-pointer"><AiOutlineArrowDown /></div>
-        </SwiperSlide> */}
 
       </Swiper>
     </>

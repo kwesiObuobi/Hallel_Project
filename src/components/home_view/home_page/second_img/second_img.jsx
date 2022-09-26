@@ -1,6 +1,6 @@
 import React from 'react'
 import './second_img.css'; 
-import secImg from '../../../assets/images/website_images/homeScreenSecondImage.jpg';
+import secImg from '../../../../assets/images/website_images/homeScreenSecondImage.jpg';
 
 const SecondImage = () => {
   return (
