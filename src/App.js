@@ -10,6 +10,7 @@ import GalleryPage from './components/home_view/gallery_page/gallery_page'
 import StaffPage from './components/home_view/staff_page/staff_page'
 import StudentPage from './components/home_view/student_page/student_page'
 import ContactPage from './components/home_view/contact_page/contact_page'
+import ErrorPage from './components/home_view/error_page/error_page'
 
 const App = () => {
   return (
@@ -28,6 +29,8 @@ const App = () => {
       <Route path="/student/login" element={<h1>STUDENT LOGIN PAGE</h1>} />
       <Route path="/staff/login" element={<h1>STUDENT LOGIN PAGE</h1>} />
       <Route path="/admin" element={<h1>STUDENT LOGIN PAGE</h1>} />
+
+      <Route path="*" element={<ErrorPage />} />
     </Routes>
 
   )
