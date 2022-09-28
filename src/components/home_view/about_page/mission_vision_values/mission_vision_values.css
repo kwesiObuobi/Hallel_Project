@@ -1,0 +1,64 @@
+/* mvv => mission_visoin_values */
+
+/* .mvv-container-outer-box {
+    background-color: red;
+} */
+
+.mvv-container {
+    background-color: var(--color-hallel-orange1);
+    /* margin: 4rem 0 2rem 0; */
+    padding: 4rem 0 2rem 0;
+}
+
+.mvv-h2, .mvv-h5 {
+    color: white;
+}
+
+.mvv-h2::after {
+    background: white;
+}
+
+.mvv-sub-heading {
+    /* border: solid 1px blue; */
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    background: white;
+    border-radius: 10px;
+}
+
+.mvv-sub-heading-h3 {
+    background: var(--color-hallel-orange1);
+    color: var(--color-white);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.mvv-sub-heading-p, .mvv-sub-heading-ul  {
+    padding: 0.5rem;
+    color: black;
+    padding: 0.5rem 1rem;
+}
+
+.mvv-sub-heading-ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+ul.mvv-sub-heading-ul li {
+   margin: 0.2rem; 
+   padding: 0.2rem;
+   text-align: center;
+   border-radius: 10px;
+   color: black;
+   background: rgba(99, 94, 94, 0.2);
+}
+
+
+@media screen and (max-width: 640px) {
+    .mvv-sub-heading-ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
