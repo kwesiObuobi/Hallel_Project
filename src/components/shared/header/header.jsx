@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
@@ -77,14 +77,14 @@ const Header = () => {
           <div className="container header__nav-container">
 
             <ul className="header__nav-menu">
-              { (addedMobileNavClass === true && windowDimension.winWidth < 1000) && <li><Link to="/" className="active" onClick={showMobileNav}>HOME</Link></li>}
-              <li><Link to="/about" className="active" onClick={showMobileNav}>ABOUT</Link></li>
-              <li><Link to="/admissions" onClick={showMobileNav}>ADMISSIONS</Link></li>
-              <li><Link to="/academics" onClick={showMobileNav}>ACADEMICS</Link></li>
-              <li><Link to="/gallery" onClick={showMobileNav}>GALLERY</Link></li>
-              <li><Link to="/staff" onClick={showMobileNav}>STAFF</Link></li>
-              <li><Link to="/student" onClick={showMobileNav}>STUDENT</Link></li>
-              <li><Link to="/contact" onClick={showMobileNav}>CONTACT</Link></li>
+              { (addedMobileNavClass === true && windowDimension.winWidth < 1000) && <li><NavLink end to="/" onClick={showMobileNav}>HOME</NavLink></li>}
+              <li><NavLink to="/about" onClick={showMobileNav}>ABOUT</NavLink></li>
+              <li><NavLink to="/admissions" onClick={showMobileNav}>ADMISSIONS</NavLink></li>
+              <li><NavLink to="/academics" onClick={showMobileNav}>ACADEMICS</NavLink></li>
+              <li><NavLink to="/gallery" onClick={showMobileNav}>GALLERY</NavLink></li>
+              <li><NavLink to="/staff" onClick={showMobileNav}>STAFF</NavLink></li>
+              <li><NavLink to="/student" onClick={showMobileNav}>STUDENT</NavLink></li>
+              <li><NavLink to="/contact" onClick={showMobileNav}>CONTACT</NavLink></li>
 
               <button className="header__nav-btn header__nav-close-btn" onClick={showMobileNav}>
                 {<GrClose />}
@@ -101,3 +101,52 @@ const Header = () => {
 
 
 export default Header
+
+
+
+// return (
+//   <header>
+//     <div className="header__container">
+//       <div className="header__brand-row-container">
+//         <div className="container header__brand-row">
+//           <div className="header__logo-and-motto-box">
+//             <Link to="/" id="header__logo">
+//               <img className="header__logo-img" src={school_logo} alt="School Logo" title="Hallel School Complex" />
+//             </Link>
+//             <div className="header__school-name-and-motto-box">
+//               <Link to="/"><h3 id="header__school-name">Hallel School Complex</h3></Link>
+//               <aside id="header__slogan">...Joy Of A Solid Childhood Foundation!</aside>
+//             </div>
+//           </div>
+//           {/* <div className="btn header__how-to-apply">How To Apply</div> */}
+
+//           <button onClick={showMobileNav} className="header__nav-btn header__nav-open-btn">{<GiHamburgerMenu />}</button>
+
+//         </div>
+//       </div>
+//       <div className='header__slogan-for-mobile'>JOY OF A SOLID CHILDHOOD FOUNDATION</div>
+
+//       <nav className="header__nav" ref={navRef}>
+//         <div className="container header__nav-container">
+
+//           <ul className="header__nav-menu">
+//             { (addedMobileNavClass === true && windowDimension.winWidth < 1000) && <li><Link to="/" className="active" onClick={showMobileNav}>HOME</Link></li>}
+//             <li><Link to="/about" className="active" onClick={showMobileNav}>ABOUT</Link></li>
+//             <li><Link to="/admissions" onClick={showMobileNav}>ADMISSIONS</Link></li>
+//             <li><Link to="/academics" onClick={showMobileNav}>ACADEMICS</Link></li>
+//             <li><Link to="/gallery" onClick={showMobileNav}>GALLERY</Link></li>
+//             <li><Link to="/staff" onClick={showMobileNav}>STAFF</Link></li>
+//             <li><Link to="/student" onClick={showMobileNav}>STUDENT</Link></li>
+//             <li><Link to="/contact" onClick={showMobileNav}>CONTACT</Link></li>
+
+//             <button className="header__nav-btn header__nav-close-btn" onClick={showMobileNav}>
+//               {<GrClose />}
+//             </button>
+
+//           </ul>
+//         </div>
+//       </nav>
+//     </div>
+//   </header>
+
+// )
