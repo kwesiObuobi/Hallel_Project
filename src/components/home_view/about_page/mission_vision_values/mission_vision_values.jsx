@@ -14,7 +14,7 @@ const MissionVisionValues = () => {
 
     
     <section className="mvv-container">
-      <h5 className="mvv-h5"> • WHERE WE ARE HEADED • </h5>
+      <h5 className="mvv-h5"> • WHERE WE'RE HEADED • </h5>
       <h2 className="mvv-h2">mission | vision | values</h2>
 
       <div className="container mvv-sub-heading">
