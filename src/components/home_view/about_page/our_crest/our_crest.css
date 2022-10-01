@@ -1,0 +1,29 @@
+.crest-section {
+    margin-top: 6rem;
+}
+
+.crest-item {
+    margin: 1rem auto;
+    padding: 2rem 0;
+}
+
+.crest-item-h3 {
+    background: var(--color-hallel-orange1);
+    color: var(--color-white);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.crest-img-box {
+    width: 100%;
+    height: calc(100vh * 0.5);
+}
+
+.crest-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
