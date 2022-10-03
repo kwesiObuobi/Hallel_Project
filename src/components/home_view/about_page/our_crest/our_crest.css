@@ -3,8 +3,9 @@
 }
 
 .crest-item {
-    margin: 1rem auto;
-    padding: 2rem 0;
+    /* margin: 1rem auto; */
+    margin-top: 1rem;
+    padding: 1.2rem 0;
 }
 
 .crest-item-h3 {
@@ -19,6 +20,7 @@
     width: 100%;
     height: calc(100vh * 0.5);
     border-radius: 10px;
+    border: solid 0.5px var(--color-hallel-orange1);
 }
 
 .crest-img {
@@ -26,6 +28,12 @@
     height: 100%;
     object-fit: fill;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .crest-img-box {
+        height: calc(100vh * 0.4);
+    }
 }
 
 
