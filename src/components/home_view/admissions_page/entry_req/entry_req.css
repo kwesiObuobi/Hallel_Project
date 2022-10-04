@@ -1,3 +1,19 @@
 
 
+.entry-req-item {
+    border: solid 1px red;
+}
+
+.entry-req-item-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+ul.entry-req-item-ul {
+    list-style-type: disc;
+}
+
+
 
