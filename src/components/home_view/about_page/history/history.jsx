@@ -19,9 +19,6 @@ const History = () => {
         <p>
           Lobortis feugiat vivamus at augue eget arcu dictum. Enim sed faucibus turpis in eu mi bibendum neque. Aliquam sem fringilla ut morbi tincidunt augue interdum. Odio facilisis mauris sit amet massa vitae tortor condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada. Odio ut sem nulla pharetra diam sit amet nisl. Aenean et tortor at risus viverra. Neque laoreet suspendisse interdum consectetur. In hendrerit gravida rutrum quisque non. Maecenas volutpat blandit aliquam etiam erat. Placerat orci nulla pellentesque dignissim enim sit amet. Laoreet non curabitur gravida arcu ac. Integer eget aliquet nibh praesent tristique magna. Libero enim sed faucibus turpis in eu mi. Risus in hendrerit gravida rutrum quisque non tellus orci ac. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque.
         </p> <br />
-        <p>
-          Scelerisque fermentum dui faucibus in ornare quam viverra orci. Mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing. Sit amet massa vitae tortor condimentum lacinia. Adipiscing tristique risus nec feugiat in fermentum posuere. Pharetra magna ac placerat vestibulum. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. Tellus in metus vulputate eu scelerisque. Lacinia at quis risus sed vulputate odio ut. Integer feugiat scelerisque varius morbi enim nunc. Mattis nunc sed blandit libero volutpat sed cras ornare. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Diam vulputate ut pharetra sit. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Morbi tristique senectus et netus et. <br />
-        </p> <br />
       
       </div>
 

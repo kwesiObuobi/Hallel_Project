@@ -120,7 +120,7 @@ section > h2, section > h5{ /* every section has a direct h2 & h5 child */
 section > h5 {
   text-transform: uppercase;
   letter-spacing: 0.02rem;
-  font-weight: 1000;
+  font-weight: 800; /* was 1000 */
 }
 
 section > h2 { /* h2 is a direct child of "section" */

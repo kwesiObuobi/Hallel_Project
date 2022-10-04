@@ -19,7 +19,7 @@ const scrollToTop = () => {
 
 const Footer = () => {
   return (
-    <section className="footer-section">
+    <footer className="footer-section">
 
       <div className="container footer-container">
 
@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
 
       </div>
-    </section>
+    </footer>
   )
 }
 

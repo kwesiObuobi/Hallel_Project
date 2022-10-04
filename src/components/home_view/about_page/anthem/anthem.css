@@ -1,0 +1,25 @@
+.anthem-section-container {
+    background-color: var(--color-hallel-orange1);
+    max-width: 100vw;
+    margin-top: 3rem;
+}
+
+.anthem-section {
+    padding: 6rem 0
+}
+
+.anthem-section-h2, .anthem-section-h5 {
+    color: white;
+}
+
+.anthem-section-h2::after {
+    background: white;
+}
+
+.anthem-section-p {
+    color: white;
+    
+}
+
+
+
