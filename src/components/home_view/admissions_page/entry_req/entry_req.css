@@ -1,7 +1,10 @@
 
+/* .entry-req-section {
+    border: solid 1px green;
+} */
 
 .entry-req-item {
-    border: solid 1px red;
+    margin-bottom: 3rem;
 }
 
 .entry-req-item-h3 {

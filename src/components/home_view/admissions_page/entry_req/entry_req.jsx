@@ -4,8 +4,13 @@ import './entry_req.css';
 
 import lion from '../../../../assets/images/website_images/crest/lion.jpg';
 
-const EntryReqItem = () => {
-    return (
+
+const EntryRequirements = () => {
+  return (
+    <section className="container entry-req-section">
+        <h5 className="entry-req-h5">• GETTING ENROLLED •</h5>
+        <h2 className="entry-req-h2">entry requirements</h2>
+
         <div className="entry-req-item">
             <h3 className="entry-req-item-h3">KG 1 - KG 2</h3>
             <div className="entry-req-item-grid">
@@ -21,17 +26,7 @@ const EntryReqItem = () => {
                     
                 </ul>
             </div>
-        </div>
-    )
-}
-
-const EntryRequirements = () => {
-  return (
-    <section className="container entry-req-section">
-        <h5 className="entry-req-h5">• GETTING ENROLLED •</h5>
-        <h2 className="entry-req-h2">entry requirements</h2>
-
-        <EntryReqItem />        
+        </div>  
 
     </section>
   )
