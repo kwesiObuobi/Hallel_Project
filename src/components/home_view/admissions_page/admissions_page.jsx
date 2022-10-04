@@ -6,6 +6,7 @@ import admissionsPageImg from '../../../assets/images/website_images/admissions.
 import PageImg from '../../shared/page_img/page_img'
 import AdmissionOverview from './overview/overview'
 import EntryRequirements from './entry_req/entry_req'
+import HowToApply from './how_to_apply/how_to_apply'
 
 const AdmissionsPage = () => {
   return (
@@ -13,6 +14,7 @@ const AdmissionsPage = () => {
       <PageImg img_url={admissionsPageImg} title="Admissions" />
       <AdmissionOverview />
       <EntryRequirements />
+      <HowToApply />
     </>
   )
 }
