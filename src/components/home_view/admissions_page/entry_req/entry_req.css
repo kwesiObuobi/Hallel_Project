@@ -4,14 +4,31 @@
     border: solid 1px red;
 }
 
+.entry-req-item-h3 {
+    background-color: var(--color-hallel-orange1);
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+}
+
 .entry-req-item-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-ul.entry-req-item-ul {
+.entry-req-item-img-box {
+    height: calc(100vh * 0.3);
+}
+
+.entry-req-item-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.entry-req-item-li {
     list-style-type: disc;
 }
 
