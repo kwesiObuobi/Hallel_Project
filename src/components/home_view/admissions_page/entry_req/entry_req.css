@@ -4,7 +4,7 @@
 } */
 
 .entry-req-item {
-    margin-bottom: 3rem;
+    margin: 3rem 0;
 }
 
 .entry-req-item-h3 {
@@ -29,11 +29,18 @@
     height: 100%;
     width: 100%;
     border-radius: 10px;
+    object-fit: fill;
 }
 
 .entry-req-item-li {
     list-style-type: disc;
 }
 
+
+@media screen and (max-width: 640px){
+    .entry-req-item-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 
