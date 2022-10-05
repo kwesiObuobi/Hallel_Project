@@ -1,0 +1,66 @@
+
+.open-admissions-box {
+    background-color: var(--color-hallel-orange1);
+    padding: 1rem;
+}
+
+.open-admissions-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.open-admissions-p {
+    font-weight: 800;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.open-admissions-btn {
+    padding: 0.8rem;
+    border-radius: 100vw;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background: transparent;
+    border: solid 3px white;
+}
+
+.open-admissions-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--color-hallel-wine2);
+    border: solid 3px var(--color-hallel-wine2);
+    transition: all 400ms ease;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .open-admissions-box {
+        padding: 0.8rem;
+    }
+
+    /* .open-admissions-section {
+        flex-direction: column;
+        gap: 0.5rem;
+    } */
+
+    .open-admissions-p {
+        font-weight: 500;
+        
+        font-size: 1rem;
+    }
+
+    .open-admissions-btn {
+        padding: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .open-admissions-section {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
