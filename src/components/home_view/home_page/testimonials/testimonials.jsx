@@ -38,7 +38,7 @@ const testimonials = [
   },
   {
       id: 2,
-      message: "Yes they do product excellence in every way. Yes they do product excellence in every way. Yes they do product excellence in every way. Yes they do product excellence in every way. Yes they do product excellence in every way. Yes they do product excellence in every way. Yes they do product excellence in every way.",
+      message: "Yes they do produce excellence in every way. Yes they do produce excellence in every way. Yes they do produce excellence in every way. Yes they do produce excellence in every way. Yes they do produce excellence in every way. Yes they do produce excellence in every way. Yes they do produce excellence in every way.",
       lastName: "Chan",
       otherNames: "Jackie",
       authorTitle: "Student",

@@ -248,4 +248,11 @@ cos it's still work even after I changed 'a' to 'Link' */
 }
 
 
-  
+@media screen and (max-width: 467px) {
+
+    #header__school-name {
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+}
+

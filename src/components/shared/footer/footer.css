@@ -14,7 +14,7 @@
 .footer-h4 {
     margin: 0 0 1rem;
     color: white;
-    font-weight: 900;
+    font-weight: 600;
   }
   
 .footer__quick-links-grid-container {
@@ -145,6 +145,11 @@
     .footer__logo-and-sch-name-container {
       grid-template-columns: 1fr;
       text-align: center;
+    }
+
+    .footer-h4 {
+      margin-bottom: 0.2rem;
+      text-decoration: underline;
     }
   
   }
