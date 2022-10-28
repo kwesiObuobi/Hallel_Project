@@ -1,6 +1,7 @@
 .secondary-home-img-container {
     max-width: 100vw;
     height: calc(100vh * 0.75);
+    border: solid 1px red;
 }
 
 img {
@@ -15,16 +16,16 @@ img {
 @media screen and (max-width: 1000px) {
 
     .secondary-home-img-container {
-      height: calc(100vh * 0.60);
+      height: calc(100vh * 0.50);
     }
   
 }
 
 /* ============== MEDIA QUERIES (MOBILE PHONES)=============================== */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
 
     .secondary-home-img-container {
-      height: calc(100vh * 0.50);
+      height: calc(100vh * 0.35);
     }
 }
 
