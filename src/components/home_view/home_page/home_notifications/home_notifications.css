@@ -24,6 +24,10 @@
     letter-spacing: 0.08rem;
     color: black;
     margin-bottom: 1rem;
+    /* border: solid 3px green; */
+    height: 3rem;
+    display: block;
+    align-items: center;
 }
 
 .home__filter-btn:hover {
