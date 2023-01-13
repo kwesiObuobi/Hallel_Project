@@ -7,12 +7,6 @@
     list-style-type:decimal;
 }
 
-/* .academics__learning-goals-item-content-toggle {
-    color: var(--color-hallel-orange1);
-    font-weight: bolder;
-    font-size: x-large;
-} */
-
 .academics__learning-goals-item-content-toggle {
     margin-top: 0.2rem;
     color: var(--color-hallel-orange1);
@@ -22,7 +16,7 @@
 
 .academics__learning-goals-item-heading-row {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 
