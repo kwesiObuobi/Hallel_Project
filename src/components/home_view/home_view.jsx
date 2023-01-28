@@ -9,6 +9,7 @@ const HomeView = () => {
         <Header />
         <Outlet />
         <Footer />
+        
     </>
   )
 }
