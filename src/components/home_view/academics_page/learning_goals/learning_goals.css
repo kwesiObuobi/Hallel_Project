@@ -22,6 +22,10 @@
     gap: 0.5rem;
 }
 
+.academics__learning-goals-item-h3 {
+    margin-bottom: 0.5rem;
+}
+
 .academics__learning-goals-item-content-toggle {
     margin-top: 0.2rem;
     color: var(--color-hallel-orange1);
@@ -31,4 +35,12 @@
 
 .academics__learning-goals-item-description-box {
     list-style-type: disc;
+}
+
+@media screen and (max-width: 1000px /*1024*/) {
+
+    .academics__learning-goals-list {
+        width: 100%;
+    }
+
 }
