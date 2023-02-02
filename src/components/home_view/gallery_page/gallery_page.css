@@ -1,0 +1,22 @@
+
+.gallery-section {
+    margin: 4rem auto 5rem;
+}
+
+.gallery-section-h3 {
+    margin-bottom: 1rem;
+    border-bottom: solid 1px var(--color-hallel-wine2);
+}
+
+.gallery-section-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-section-img-item-box {
+    height: calc(100vw * 0.15); /* 10rem; */
+    width: calc(100vw * 0.15);
+    background-color: red;
+    border: solid 1px white;
+    border-radius: 0.5rem;
+}
