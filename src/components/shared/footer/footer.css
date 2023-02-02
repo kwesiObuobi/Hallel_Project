@@ -32,6 +32,7 @@
     color: var(--color-light);
     font-weight: 50;
     color: white;
+    list-style-type: none; /* 2-2-23*/
 }
   
 .footer__contact-us-container {

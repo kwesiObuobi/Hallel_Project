@@ -3,8 +3,23 @@
     margin-top: 5rem;
 }
 
+.academics__learning-goals-list-container {
+    display: flex;
+    justify-content: center;
+}
+
+.academics__learning-goals-list {
+    width: 70%;
+}
+
 .academics__learning-goals-item {
     list-style-type:decimal;
+    padding: 1rem;
+}
+
+.academics__learning-goals-item-heading-row {
+    display: flex;
+    gap: 0.5rem;
 }
 
 .academics__learning-goals-item-content-toggle {
@@ -14,12 +29,6 @@
     font-size: x-large;
 }
 
-.academics__learning-goals-item-heading-row {
-    display: flex;
-    gap: 0.5rem;
-}
-
-
-.academics__learning-goals-desc-box-item {
+.academics__learning-goals-item-description-box {
     list-style-type: disc;
 }

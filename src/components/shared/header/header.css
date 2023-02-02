@@ -1,5 +1,5 @@
 header {
-    height: calc(100vh * 0.2);
+    height: calc(100vh * 0.2); /* was initially 0.2 = 20% */
 }
 
 .header__container {
@@ -79,6 +79,7 @@ header {
     justify-content: space-between;
     height: 100%;
     width: 100%;
+    list-style-type: none;
 }
 
 .header__nav-menu li a {
