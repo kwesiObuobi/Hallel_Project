@@ -1,0 +1,13 @@
+
+.extras-section {
+    margin: 1rem auto;
+    padding: 3rem 0.5rem;
+}
+
+.extras-section-p {
+    margin-bottom: 1rem;
+}
+
+.extras-section__list {
+    list-style-position: inside;
+}
