@@ -20,4 +20,31 @@
     background-color: red;
     border: solid 1px white;
     border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-section-img-item-box:hover {
+    cursor: pointer;
+}
+
+.gallery-section-img-item-box:hover .gallery-section-img {
+    transform: scale(1.1);
+}
+
+.gallery-section-img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+    object-fit: cover;
+}
+
+.gallery-section-image-desc {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 0.5rem;
+    font-weight: 500;
 }
