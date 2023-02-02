@@ -42,6 +42,7 @@
 .mvv-sub-heading-ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
 }
 
 ul.mvv-sub-heading-ul li {
