@@ -1,5 +1,4 @@
 import React from 'react'
-import './gs_list_item.css'
 
 const GsListItem = ({title, img_url, openModal}) => {
   return (
