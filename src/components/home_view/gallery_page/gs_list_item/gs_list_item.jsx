@@ -1,9 +1,9 @@
 import React from 'react'
 import './gs_list_item.css'
 
-const GsListItem = ({title, img_url}) => {
+const GsListItem = ({title, img_url, openModal}) => {
   return (
-    <div className="gallery-section-img-item-box">
+    <div className="gallery-section-img-item-box" onClick={openModal}>
         <img src={img_url} alt={title} className="gallery-section-img" />
         <small className="gallery-section-image-desc">{title}</small>
     </div>

@@ -10,6 +10,9 @@ import GsListItem from './gs_list_item/gs_list_item'
 const GalleryPage = () => {
 
   const [openModal, setOpenModal] = useState(false);
+  if(openModal == false) {
+    document.querySelector('body').style.overflow = "auto";
+  }
 
   const clubsAndHouses = [
     {
@@ -46,7 +49,12 @@ const GalleryPage = () => {
           {
             clubsAndHouses.map(({title, img_url}, id) => {
               return (
-                <GsListItem key={id} title={title} img_url={img_url} />
+                <GsListItem 
+                  key={id} 
+                  title={title} 
+                  img_url={img_url} 
+                  openModal={() => setOpenModal(!openModal)} 
+                />
               )
             })
           }
@@ -61,26 +69,6 @@ const GalleryPage = () => {
               )
             })
           } */}
-
-          {/* <div className="gallery-section-img-item-box">
-            <img src="https://www.cru.org/communities/hs/wp-content/uploads/sites/18/2020/03/Gathering-Students.jpg" alt="Inkoomsah" className="gallery-section-img" />
-            <small className="gallery-section-image-desc">Inkoomsah Hall</small>
-          </div>
-
-          <div className="gallery-section-img-item-box">
-            <img src="https://knowledgeworks.org/wp-content/uploads/2016/07/Teacher-Working-300x200.jpg" alt="Inkoomsah" className="gallery-section-img" />
-            <small className="gallery-section-image-desc">Godsaye Simpson</small>
-          </div>
-
-          <div className="gallery-section-img-item-box">
-            <img src="https://www.cru.org/communities/hs/wp-content/uploads/sites/18/2020/03/Gathering-Students.jpg" alt="Inkoomsah" className="gallery-section-img" />
-            <small className="gallery-section-image-desc">Inkoomsah Hall</small>
-          </div>
-
-          <div className="gallery-section-img-item-box">
-            <img src="https://knowledgeworks.org/wp-content/uploads/2016/07/Teacher-Working-300x200.jpg" alt="Inkoomsah" className="gallery-section-img" />
-            <small className="gallery-section-image-desc">Godsaye Simpson</small>
-          </div> */}
 
         </div>
       </div>
@@ -98,7 +86,7 @@ const GalleryPage = () => {
       </div>
 
 
-      <GsModal open={true}/>
+      <GsModal open={openModal} closeModal={() => setOpenModal(!openModal)}/>
 
 
     </>
