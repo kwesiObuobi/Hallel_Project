@@ -1,5 +1,4 @@
 import React from 'react'
-import './gs_modal.css';
 
 const GsModal = ({open, closeModal}) => {
     if (open) {
