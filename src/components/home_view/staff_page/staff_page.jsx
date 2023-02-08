@@ -5,7 +5,7 @@ import './staff_page.css'
 import staffPageImg from '../../../assets/images/website_images/staff.jpg'
 import PageImg from '../../shared/page_img/page_img'
 
-const StaffSectionGroupItem = () => {
+const StaffSectionGroupItem = ({name, imgUrl, id, role}) => {
   return (
     <div className="staff-section_group_item">
       <img src="https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg" alt="Mr Samuel Hagan" className="staff-section_group_item_img" />
