@@ -1,20 +1,20 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './gallery_page.css'
 
 import galleryPageImg from '../../../assets/images/website_images/gallery.jpg'
 import PageImg from '../../shared/page_img/page_img'
-import GsModal from './gs_modal'
-import GsListItem from './gs_list_item'
-import { clubsAndHouses } from '../../../constants';
+// import GsModal from './gs_modal'
+// import GsListItem from './gs_list_item'
+// import { clubsAndHouses } from '../../../constants';
 
 const GalleryPage = () => {
 
-  const [openModal, setOpenModal] = useState(false);
-  if(openModal === false) {
-    document.querySelector('body').style.overflow = "auto";
-  }
+  // const [openModal, setOpenModal] = useState(false);
+  // if(openModal === false) {
+  //   document.querySelector('body').style.overflow = "auto";
+  // }
 
-  const [getId, setGetId] = useState(99);
+  // const [getId, setGetId] = useState(99);
 
   return (
     <>
@@ -66,7 +66,7 @@ const GalleryPage = () => {
       </div> */}
 
 
-      <GsModal open={openModal} closeModal={() => setOpenModal(!openModal)} dataId={getId}/>
+      {/* <GsModal open={openModal} closeModal={() => setOpenModal(!openModal)} dataId={getId}/> */}
 
 
     </>

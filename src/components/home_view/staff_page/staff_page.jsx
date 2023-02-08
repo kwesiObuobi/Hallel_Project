@@ -9,6 +9,18 @@ const StaffPage = () => {
   return (
     <>
       <PageImg img_url={staffPageImg} title="Staff" />
+
+      <section className="staff-section container">
+        <h5 className="staff-section__h5">• WE MAKE THE MAGIC HAPPEN •</h5>
+        <h2 className="staff-section__h2">meet our team</h2>
+
+        <div className="staff-section_desc_box">
+          <h3 className="staff-section_desc_h3">The team at hallel Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, perferendis</h3>
+          <p className="staff-section_desc_p">We're driven by the idea that Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        
+      </section>
+
     </>
   )
 }
