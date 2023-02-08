@@ -53,26 +53,26 @@ const clubsAndHouses = [
 const leadership = [
   {
     id: 1,
-    imgUrl: "https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg",
-    name: "Name Goes Here",
+    imgUrl: "https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7",
+    personpersonName: "Name Goes Here",
     role: "Head Mistress"
   },
   {
     id: 2,
-    imgUrl: "https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg",
-    name: "Name Goes Here",
+    imgUrl: "https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7",
+    personName: "Name Goes Here",
     role: "Head Mistress"
   },
   {
     id: 3,
-    imgUrl: "https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg",
-    name: "Name Goes Here",
+    imgUrl: "https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7",
+    personName: "Name Goes Here",
     role: "Head Mistress"
   },
   {
     id: 4,
-    imgUrl: "https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg",
-    name: "Name Goes Here",
+    imgUrl: "https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7",
+    personName: "Name Goes Here",
     role: "Head Mistress"
   }
 ]

@@ -4,13 +4,14 @@ import './staff_page.css'
 
 import staffPageImg from '../../../assets/images/website_images/staff.jpg'
 import PageImg from '../../shared/page_img/page_img'
+import { leadership } from '../../../constants'
 
-const StaffSectionGroupItem = ({name, imgUrl, id, role}) => {
+const StaffSectionGroupItem = ({name, imgUrl, role}) => {
   return (
     <div className="staff-section_group_item">
-      <img src="https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg" alt="Mr Samuel Hagan" className="staff-section_group_item_img" />
-      <p className="staff-section_group_item_p">Name Goes Here</p>
-      <small className="staff-section_group_item_role">Head Mistress</small>
+      <img src={imgUrl} alt={name} className="staff-section_group_item_img" />
+      <p className="staff-section_group_item_p">{name}</p>
+      <small className="staff-section_group_item_role">{role}</small>
     </div>
   )
 }
@@ -33,47 +34,19 @@ const StaffPage = () => {
           <h3 className="staff-section_group_h3">Leadership</h3>
           
           <div className="staff-section_group_items">
-            <div className="staff-section_group_item">
-              <img src="https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg" alt="Mr Samuel Hagan" className="staff-section_group_item_img" />
-              <p className="staff-section_group_item_p">Name Goes Here</p>
-              <small className="staff-section_group_item_role">Head Mistress</small>
-            </div>
 
-            <div className="staff-section_group_item">
-              <img src="https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7" alt="Madam Patience Lamptey" className="staff-section_group_item_img"/>
-              <p className="staff-section_group_item_p">Name Goes Here</p>
-              <small className="staff-section_group_item_role">Head Mistress</small>
-            </div>
-
-            <div className="staff-section_group_item">
-              <img src="https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7" alt="Madam Patience Lamptey" className="staff-section_group_item_img"/>
-              <p className="staff-section_group_item_p">Name Goes Here</p>
-              <small className="staff-section_group_item_role">Head Mistress</small>
-            </div>
-
-            <div className="staff-section_group_item">
-              <img src="https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7" alt="Madam Patience Lamptey" className="staff-section_group_item_img"/>
-              <p className="staff-section_group_item_p">Name Goes Here</p>
-              <small className="staff-section_group_item_role">Head Mistress</small>
-            </div>
-
-            <div className="staff-section_group_item">
-              <img src="https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7" alt="Madam Patience Lamptey" className="staff-section_group_item_img"/>
-              <p className="staff-section_group_item_p">Name Goes Here</p>
-              <small className="staff-section_group_item_role">Head Mistress</small>
-            </div>
-
-            <div className="staff-section_group_item">
-              <img src="https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7" alt="Madam Patience Lamptey" className="staff-section_group_item_img"/>
-              <p className="staff-section_group_item_p">Name Goes Here</p>
-              <small className="staff-section_group_item_role">Head Mistress</small>
-            </div>
-
-            <div className="staff-section_group_item">
-              <img src="https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7" alt="Madam Patience Lamptey" className="staff-section_group_item_img"/>
-              <p className="staff-section_group_item_p">Name Goes Gere</p>
-              <small className="staff-section_group_item_role">Head Mistress</small>
-            </div>
+            {
+              leadership.map(({personName, imgUrl, role, id}) => {
+                return (
+                  <StaffSectionGroupItem 
+                    key={id}  
+                    name={personName}
+                    imgUrl={imgUrl}
+                    role={role}
+                  />
+                )
+              })
+            }
 
           </div>
           
