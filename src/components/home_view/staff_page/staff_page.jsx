@@ -32,9 +32,7 @@ const StaffPage = () => {
 
         <div className="staff-section_group">
           <h3 className="staff-section_group_h3">Leadership</h3>
-          
           <div className="staff-section_group_items">
-
             {
               leadership.map(({personName, imgUrl, role, id}) => {
                 return (
@@ -47,9 +45,25 @@ const StaffPage = () => {
                 )
               })
             }
+          </div> 
+        </div>
 
-          </div>
-          
+        <div className="staff-section_group">
+          <h3 className="staff-section_group_h3">Teachers</h3>
+          <div className="staff-section_group_items">
+            {
+              leadership.map(({personName, imgUrl, role, id}) => {
+                return (
+                  <StaffSectionGroupItem 
+                    key={id}  
+                    name={personName}
+                    imgUrl={imgUrl}
+                    role={role}
+                  />
+                )
+              })
+            }
+          </div> 
         </div>
 
       </section>

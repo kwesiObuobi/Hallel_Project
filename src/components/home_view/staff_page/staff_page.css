@@ -15,6 +15,10 @@
     width: 40%;
 }
 
+.staff-section_desc_p {
+    margin-bottom: 3rem;
+}
+
 .staff-section_group {
     padding: 3rem 0;
 }
