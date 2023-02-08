@@ -50,4 +50,31 @@ const clubsAndHouses = [
     },
   ]
 
-  export {clubsAndHouses}
+const leadership = [
+  {
+    id: 1,
+    imgUrl: "https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg",
+    name: "Name Goes Here",
+    role: "Head Mistress"
+  },
+  {
+    id: 2,
+    imgUrl: "https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg",
+    name: "Name Goes Here",
+    role: "Head Mistress"
+  },
+  {
+    id: 3,
+    imgUrl: "https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg",
+    name: "Name Goes Here",
+    role: "Head Mistress"
+  },
+  {
+    id: 4,
+    imgUrl: "https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg",
+    name: "Name Goes Here",
+    role: "Head Mistress"
+  }
+]
+
+  export {clubsAndHouses, leadership}
