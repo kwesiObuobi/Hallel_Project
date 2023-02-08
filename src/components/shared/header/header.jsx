@@ -24,7 +24,6 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener('resize', detectSize)
-    console.log(windowDimension.winWidth)
 
     return() => {
       window.removeEventListener('resize', detectSize)

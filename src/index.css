@@ -74,6 +74,10 @@ body {
   line-height: 1.7;
 }
 
+body.active-modal {
+  overflow-y: hidden;
+}
+
 /* ======================= GENERAL STYLES ============================ */
 .container {
   max-width: var(--container-width-lg);

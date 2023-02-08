@@ -49,23 +49,47 @@
     font-weight: 500;
 }
 
-.gs_modal_overall_container {
+.gs_modal_overall_container, .gs_modal_overlay {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    border: solid 2px blue;
+    z-index: 10;
+}
+
+.gs_modal_overlay {
+    background-color: rgba(0, 0, 0, 0.7);   
+}
+
+.gs_modal_content {
+    position: absolute;
+    /* top: 40%;
+    left: 50%; */
+    width: calc(100vw * 0.5);
+    height: calc(100vh * 0.5);
+    border: solid 2px green;
 }
 
 .clickTest {
     position: absolute;
     top: 50%;
-    z-index: 1000;
+    z-index: 15;
 }
 
 .clickTest:hover {
     cursor: pointer;
+}
+
+.tempDiv {
+    height: 500px;
+    width: 400px;
+    background-color: orange;
+}
+
+.tempDiv:nth-of-type(even) {
+    background-color: purple;
 }
