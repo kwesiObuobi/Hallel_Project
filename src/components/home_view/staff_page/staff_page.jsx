@@ -4,7 +4,7 @@ import './staff_page.css'
 
 import staffPageImg from '../../../assets/images/website_images/staff.jpg'
 import PageImg from '../../shared/page_img/page_img'
-import { leadership } from '../../../constants'
+import { leadership, teachers } from '../../../constants'
 
 const StaffSectionGroupItem = ({name, imgUrl, role}) => {
   return (
@@ -22,7 +22,7 @@ const StaffPage = () => {
       <PageImg img_url={staffPageImg} title="Staff" />
 
       <section className="staff-section container">
-        <h5 className="staff-section__h5">• WE MAKE THE MAGIC HAPPEN •</h5>
+        <h5 className="staff-section__h5">• HOW THE MAGIC HAPPENS •</h5>
         <h2 className="staff-section__h2">meet our team</h2>
 
         <div className="staff-section_desc_box">
@@ -52,7 +52,7 @@ const StaffPage = () => {
           <h3 className="staff-section_group_h3">Teachers</h3>
           <div className="staff-section_group_items">
             {
-              leadership.map(({personName, imgUrl, role, id}) => {
+              teachers.map(({personName, imgUrl, role, id}) => {
                 return (
                   <StaffSectionGroupItem 
                     key={id}  
