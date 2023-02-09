@@ -1,0 +1,26 @@
+.home-student {
+    margin: 4rem auto;
+}
+
+.home-student-spotlights {
+    column-count: 3;
+    gap: 10px;
+}
+
+.home-student-spotlight {
+    padding: 10px;
+    background: var(--color-light-heavy);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    break-inside: avoid;
+    display: inline-block;
+}
+
+.home-student-spotlight-img {
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+    border-radius: 10px;
+}
+
