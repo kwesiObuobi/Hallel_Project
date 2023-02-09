@@ -17,6 +17,13 @@
     display: inline-block;
 }
 
+.home-student-spotlight-name {
+    text-align: center;
+    font-size: larger;
+    text-transform: uppercase;
+    margin: 0.2rem auto 0.5rem;
+}
+
 .home-student-spotlight-img {
     width: 100%;
     object-fit: cover;
