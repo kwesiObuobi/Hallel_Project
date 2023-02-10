@@ -130,4 +130,8 @@
     .staff-section_group_item {
         height: 13rem;
     }
+
+    .staff-section_desc_h3, .staff-section_desc_p {
+        width: 100%;
+    }
 }
