@@ -163,49 +163,49 @@ const classSpotlights = [
     id: 1,
     name: "Best Student (Class 1)",
     imgUrl: "https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096",
-    student: "Emmanuel kwuku Godsaye-Simpson",
+    student: "Emmanuel GodIs WithUs Greene",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex officia officiis quisquam dolor corporis quo, velit sapiente, deleniti blanditiis doloribus autem tempora quidem suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
   },
   {
     id: 2,
     name: "Best Student (Class 2)",
     imgUrl: "https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7",
-    student: "Emmanuel kwuku Godsaye-Simpson",
+    student: "Emmanuel GodIs WithUs Greene",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex officia officiis quisquam dolor corporis quo, velit sapiente, deleniti blanditiis doloribus autem tempora quidem suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
   },
   {
     id: 3,
     name: "Best Student (Class 3)",
     imgUrl: "https://pbs.twimg.com/profile_images/951905090432045057/ycrV1ioO_400x400.jpg",
-    student: "Emmanuel kwuku Godsaye-Simpson",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex officia officiis quisquam dolor corporis quo, velit sapiente, deleniti blanditiis doloribus autem tempora quidem suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
+    student: "Emmanuel GodIs WithUs Greene",
+    desc: "Lorem, ipsum dolor sit amet consectetu, velit sapiente, deleniti blanditiis doloribus autem tempora quidem suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
   },
   {
     id: 4,
     name: "Best Student (Class 4)",
     imgUrl: "https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg",
-    student: "Emmanuel kwuku Godsaye-Simpson",
-    desc: "Quisquam dolor corporis quo, velit sapiente, suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
+    student: "Emmanuel GodIs WithUs Greene",
+    desc: "Quisquam dolor corpoficia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
   },
   {
     id: 5,
     name: "Best Student (Class 5)",
     imgUrl: "https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096",
-    student: "Emmanuel kwuku Godsaye-Simpson",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex officia officiis quisquam dolor corporis quo, velit sapiente, deleniti blanditiis doloribus autem tempora quidem suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
+    student: "Emmanuel GodIs WithUs Greene",
+    desc: "Lorem, ipsum dolordoloribus autem t libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
   },
   {
     id: 6,
     name: "Best Student (Class 6)",
     imgUrl: "https://scontent.facc5-1.fna.fbcdn.net/v/t1.6435-9/122302609_3010058792433819_2789752901117058824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFEi44etEnnP8jeLULyDeampfhw0Omzl3Ol-HDQ6bOXc1SLF4GIxKLLYK2Gfk1axsgoWmBwFzMTcWlmNxAKXQK4&_nc_ohc=fd_-2_csI0kAX_uropG&_nc_ht=scontent.facc5-1.fna&oh=00_AfBE82AEqu9RCXB3FMSZVXQ4JAgZF_U3TxmDOXdJba6BJA&oe=640B13D7",
-    student: "Emmanuel kwuku Godsaye-Simpson",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex officia officiis quisquam dolor corporis quo, velit sapiente, deleniti blanditiis doloribus autem tempora quidem suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
+    student: "Emmanuel GodIs WithUs Greene",
+    desc: "Lc ex officia officiis quisquam dolor corporis quo, velit sapiente, deleniti blanditiis doloribus autem tempora quidem suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
   },
   {
     id: 7,
     name: "Best Student (Class 7)",
     imgUrl: "https://pbs.twimg.com/profile_images/951905090432045057/ycrV1ioO_400x400.jpg",
-    student: "Emmanuel kwuku Godsaye-Simpson",
+    student: "Emmanuel GodIs WithUs Greene",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex officia officiis quisquam dolor corporis quo, velit sapiente, deleniti blanditiis doloribus autem tempora quidem suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
   },
 ]

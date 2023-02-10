@@ -31,12 +31,17 @@
     text-align: center;
     font-size: larger;
     text-transform: uppercase;
-    margin: 0.2rem auto 0.5rem;
+    margin: 0.2rem auto 1.5rem;
+}
+
+.home-student-spotlight-img-box {
+    height: 20rem;
 }
 
 .home-student-spotlight-img {
     width: 100%;
     object-fit: cover;
+    object-position: top;
     border-radius: 10px;
 }
 
@@ -49,9 +54,20 @@
 /* WORK ON MEDIA QUERIES, THEN SPORTS SECTIONS */
 
 
-/* @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1095px) {
     .home-student-spotlights {
         column-count: 2;
-        gap: 25px;
     }
-} */
+}
+
+@media screen and (max-width: 720px) {
+    .home-student-spotlight-name {
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .home-student-spotlights {
+        column-count: 1;
+    }
+}
