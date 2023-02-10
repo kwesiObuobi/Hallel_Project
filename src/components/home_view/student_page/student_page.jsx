@@ -6,7 +6,7 @@ import studentPageImg from '../../../assets/images/website_images/student.jpg'
 import PageImg from '../../shared/page_img/page_img'
 import { classSpotlights } from '../../../constants'
 
-const spotlight = ({name, imgUrl, desc, student}) => {
+const Spotlight = ({name, imgUrl, desc, student}) => {
   return (
     <div className="home-student-spotlight">
       <h3 className="home-student-spotlight-name">{name}</h3>
@@ -33,13 +33,19 @@ const StudentPage = () => {
 
         <div className="home-student-spotlights">
 
-          {/* {
-            classSpotlights.map(() => {
+          {
+            classSpotlights.map(({id, name, imgUrl, student, desc}) => {
               return (
-
+                <Spotlight 
+                  key={id}
+                  name={name}
+                  imgUrl={imgUrl}
+                  student={student}
+                  desc={desc}
+                />
               )
             })
-          } */}
+          }
 
           {/* <div className="home-student-spotlight">
             <h3 className="home-student-spotlight-name">Best Student (Class 1)</h3>

@@ -185,7 +185,7 @@ const classSpotlights = [
     name: "Best Student (Class 4)",
     imgUrl: "https://pbs.twimg.com/profile_images/830779586661203968/TeCxvWqF_400x400.jpg",
     student: "Emmanuel kwuku Godsaye-Simpson",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ex officia officiis quisquam dolor corporis quo, velit sapiente, deleniti blanditiis doloribus autem tempora quidem suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
+    desc: "Quisquam dolor corporis quo, velit sapiente, suscipit sint illo libero amet? Officia perferendis iusto nobis? Tempore, labore quae maxime deleniti provident odit adipisci repellat doloribus aut nesciunt sapiente non enim iure voluptas ducimus, repudiandae corrupti beatae veritatis in. Ad ea officiis fugiat at enim quos quo provident accusantium dolor assumenda. Ullam qui dolorum eaque, maxime fuga ratione aliquid nemo a rem incidunt autem, repudiandae doloribus quam veritatis facilis illum! Eos alias hic nesciunt deserunt porro, eaque dicta ad voluptas illum. Dignissimos, aliquam?"
   },
   {
     id: 5,
