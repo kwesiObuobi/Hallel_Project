@@ -4,6 +4,20 @@ import './student_page.css'
 
 import studentPageImg from '../../../assets/images/website_images/student.jpg'
 import PageImg from '../../shared/page_img/page_img'
+import { classSpotlights } from '../../../constants'
+
+const spotlight = ({name, imgUrl, desc, student}) => {
+  return (
+    <div className="home-student-spotlight">
+      <h3 className="home-student-spotlight-name">{name}</h3>
+      <div className="home-student-spotlight-img-box">
+        <img src={imgUrl} alt={name} className="home-student-spotlight-img" />
+      </div>
+      <h4 className="home-student-spotlight-student">{student}</h4>
+      <small className="home-student-spotlight-desc">{desc}</small>
+    </div>
+  )
+}
 
 const StudentPage = () => {
   return (
@@ -18,6 +32,14 @@ const StudentPage = () => {
         <h3 className="home-student-spotlight-section-h3">Class honors</h3>
 
         <div className="home-student-spotlights">
+
+          {/* {
+            classSpotlights.map(() => {
+              return (
+
+              )
+            })
+          } */}
 
           {/* <div className="home-student-spotlight">
             <h3 className="home-student-spotlight-name">Best Student (Class 1)</h3>
