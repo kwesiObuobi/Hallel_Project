@@ -37,7 +37,6 @@
 .home-student-spotlight-img {
     width: 100%;
     object-fit: cover;
-    height: 50%;
     border-radius: 10px;
 }
 
@@ -47,3 +46,12 @@
     margin: 0.3rem auto 1.5rem;
 }
 
+/* WORK ON MEDIA QUERIES, THEN SPORTS SECTIONS */
+
+
+/* @media screen and (max-width: 1000px) {
+    .home-student-spotlights {
+        column-count: 2;
+        gap: 25px;
+    }
+} */
