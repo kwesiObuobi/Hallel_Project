@@ -1,0 +1,42 @@
+
+.home-contact {
+    margin: 4rem auto;
+}
+
+.home-contact-and-message-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.home-contact-us-inner-box {
+    border: solid 1px green;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.home-contact-inner-box-header {
+    margin-bottom: 0.2rem;
+}
+
+.home-contact-phone {
+    display: block;
+}
+
+.home-contact-us-inner-box-email, .home-contact-us-inner-box-connect {
+    margin-top: 1rem;
+}
+
+.home-contact-connect-img-box {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.home-contact-connect-img-box a:hover {
+    cursor: pointer;
+}
+
+.home-contact-connect-img {
+    width: 100%;
+    height: 100%;
+}
