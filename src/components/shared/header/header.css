@@ -1,14 +1,20 @@
 header {
-    height: calc(100vh * 0.2); /* was initially 0.2 = 20% */
+    position: absolute;
+    z-index: 7;
+    width: 100%;
+    background: transparent;
+
 }
 
 .header__container {
     height: 100%;
+    display: flex;
+    background: transparent;
+    justify-content:space-between;
 }
   
 .header__brand-row-container {
-    background: var(--color-light-heavy);
-    height: 70%;
+    background: transparent;
 }
 
 .header__brand-row {
@@ -22,32 +28,36 @@ header {
 .header__logo-and-motto-box {
     display: flex;
     gap: 1rem;
-    align-items: center;
-    height: 100%;
 }
   
 #header__logo {
     display: block;
     background: transparent;
-    width: 20%;
-    height: 100%;
+    margin-top: 0.5rem;
 }
 
 .header__logo-img {
-    height: 100%;
-    width: 100%;
+    height: 7rem;
+    width: 7rem;
     object-fit: cover;
+}
+
+.header__school-name-and-motto-box {
+    margin-top: 1rem;
+    width: max-content;
 }
 
 #header__school-name {
     color: var(--color-hallel-orange1);
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 0.5rem;
 }
   
 #header__slogan {
     font-size: 0.7rem;
     margin-left: 2rem;
+    color: white;
 }
 
 .header__slogan-for-mobile {
@@ -55,31 +65,27 @@ header {
 }
 
 .header__nav {
-    background: var(--color-hallel-orange1);
-    max-width: 100vw;
-    z-index: 11;
-    height: 30%;
-    display: grid;
+    background: transparent;
     place-items: center;
-    /* box-shadow: x-axis, y-axis, blur, color */
-    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .header__nav-container {
-    width: var(--container-width-lg);
+    /* width: var(--container-width-lg); */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    flex-wrap: wrap;
 }
  
 .header__nav-menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
+    justify-content: right;
+    /* hei   */
     list-style-type: none;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .header__nav-menu li a {
@@ -91,13 +97,13 @@ header {
     position: relative;
     justify-content: center;
     padding: 0.2rem;
+
+    transition: all 0.1s ease-in-out;
 }
 
-/* the 'Link' tag replaces 'a'. 
-I think the styles are maintained
-cos it's still work even after I changed 'a' to 'Link' */
 .header__nav-menu li a:hover{
-    color: var(--color-hallel-wine2);
+    /* color: var(--color-hallel-wine2); */
+    text-decoration: underline;
 }
 
 .header__nav-menu li a.active::after {

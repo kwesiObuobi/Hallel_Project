@@ -64,7 +64,6 @@ const Header = () => {
                 <aside id="header__slogan">...Joy Of A Solid Childhood Foundation!</aside>
               </div>
             </div>
-            {/* <div className="btn header__how-to-apply">How To Apply</div> */}
 
             <button onClick={showMobileNav} className="header__nav-btn header__nav-open-btn">{<GiHamburgerMenu />}</button>
 
