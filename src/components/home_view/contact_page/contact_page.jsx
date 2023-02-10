@@ -58,6 +58,28 @@ const ContactPage = () => {
 
           <div className="home-message-box">
             <h3 className="home-contact-us-header">Send Us a Message</h3>
+
+            <div className="home-contact-message-input-group">
+              <label className="home-contact-message-label" for="name">Your name</label>
+              <input type="text" placeholder="Enter your name" max="255" required/>
+            </div>
+
+            <div className="home-contact-message-input-group">
+              <label className="home-contact-message-label" for="name">Your email</label>
+              <input type="text" placeholder="Enter your Email" max="255" required/>
+            </div>
+
+            <div className="home-contact-message-input-group">
+              <label className="home-contact-message-label" for="name">Subject (Optional)</label>
+              <input type="text" placeholder="What is the subject of your message" max="255" />
+            </div>
+
+            <div className="home-contact-message-input-group">
+              <label className="home-contact-message-label" for="name">Message</label>
+              <input type="text" placeholder="Write your message here" max="255" required/>
+            </div>
+
+            <input className="home-contact-message-submit-btn" type="submit" />
             
           </div>
         </div>
