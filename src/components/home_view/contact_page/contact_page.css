@@ -27,9 +27,15 @@
     margin-top: 1rem;
 }
 
+.home-contact-connect-img-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 .home-contact-connect-img-box {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .home-contact-connect-img-box a:hover {
