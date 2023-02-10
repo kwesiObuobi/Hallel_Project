@@ -34,6 +34,12 @@
 .home-contact-connect-img-box {
     width: 2rem;
     height: 2rem;
+    border-radius: 10px;
+}
+
+.home-contact-connect-img-box:hover {
+
+    outline: solid 1px rgba(0,0,0,0.3);
 }
 
 .home-contact-connect-img-box a:hover {
@@ -43,4 +49,75 @@
 .home-contact-connect-img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* 
+
+MESSAGE STUFF 
+
+*/
+
+.home-contact-message-input-group {
+    margin: 1rem 0;
+}
+
+.home-contact-message-label {
+    display: block;
+}
+
+.home-contact-message-input {
+    border: solid 1px rgba(0,0,0,0.3);
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.home-message-textarea {
+    resize: none;
+}
+
+.home-contact-message-submit-btn {
+    background-color: var(--color-hallel-orange1);
+    padding: 0.5rem;
+    width: 50%;
+    font-weight: 500;
+    font-size: medium;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+.home-contact-message-submit-btn:hover {
+    background-color: var(--color-hallel-wine2);
+    cursor: pointer;
+    outline: solid 1px white;
+}
+
+@media screen and (max-width: 1200px) {
+    .home-contact-message-input, .home-contact-message-submit-btn{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home-contact-and-message-box {
+        grid-template-columns: 1fr;
+    }
+
+    .home-message-box {
+        margin-top: 1rem;
+        border-top: solid 2px var(--color-hallel-wine2);
+        padding-top: 3rem;
+    }
+
+    .home-contact-us-message-header {
+        margin-bottom: 2rem;
+    }
+}
+
+.deleteMeNow {
+    width: 200px;
+    height: 200px;
 }

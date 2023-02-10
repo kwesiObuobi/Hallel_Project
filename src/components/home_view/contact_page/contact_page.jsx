@@ -16,7 +16,6 @@ const ContactPage = () => {
 
         <div className="home-contact-and-message-box">
           <div className="home-contact-us-box">
-            {/* <h3 className="home-contact-us-header">Contact Us</h3> */}
             <p>We would love to hear from you. Freely call for any questions or enquiries, and we'd be glad to answer them!</p>
             
             <div className="home-contact-us-inner-box">
@@ -57,29 +56,31 @@ const ContactPage = () => {
 
 
           <div className="home-message-box">
-            <h3 className="home-contact-us-header">Send Us a Message</h3>
+            <h3 className="home-contact-us-message-header">Send Us a Message</h3>
 
-            <div className="home-contact-message-input-group">
-              <label className="home-contact-message-label" for="name">Your name</label>
-              <input type="text" placeholder="Enter your name" max="255" required/>
-            </div>
+            <form>
+              <div className="home-contact-message-input-group">
+                <label className="home-contact-message-label" for="name">Your name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" max="255" className="home-contact-message-input" required/>
+              </div>
 
-            <div className="home-contact-message-input-group">
-              <label className="home-contact-message-label" for="name">Your email</label>
-              <input type="text" placeholder="Enter your Email" max="255" required/>
-            </div>
+              <div className="home-contact-message-input-group">
+                <label className="home-contact-message-label" for="email">Your email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email" max="255" className="home-contact-message-input" required/>
+              </div>
 
-            <div className="home-contact-message-input-group">
-              <label className="home-contact-message-label" for="name">Subject (Optional)</label>
-              <input type="text" placeholder="What is the subject of your message" max="255" />
-            </div>
+              <div className="home-contact-message-input-group">
+                <label className="home-contact-message-label" for="subject">Subject (Optional)</label>
+                <input type="text" name="subject" id="subject" placeholder="What is the subject of your message" max="255" className="home-contact-message-input" />
+              </div>
 
-            <div className="home-contact-message-input-group">
-              <label className="home-contact-message-label" for="name">Message</label>
-              <input type="text" placeholder="Write your message here" max="255" required/>
-            </div>
+              <div className="home-contact-message-input-group">
+                <label className="home-contact-message-label" for="name">Message</label>
+                <textarea name="message" id="message" rows="13" cols="50" className="home-contact-message-input home-message-textarea" required></textarea>
+              </div>
 
-            <input className="home-contact-message-submit-btn" type="submit" />
+              <input className="home-contact-message-submit-btn" type="submit" />
+            </form>
             
           </div>
         </div>
