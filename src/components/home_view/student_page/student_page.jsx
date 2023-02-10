@@ -14,6 +14,9 @@ const StudentPage = () => {
         <h5 className="staff-section__h5">• LET'S RECOGNISE THEM •</h5>
         <h2 className="staff-section__h2">students in the spotlight</h2>
 
+
+        <h3 className="home-student-spotlight-section-h3">Class honors</h3>
+
         <div className="home-student-spotlights">
 
           <div className="home-student-spotlight">
