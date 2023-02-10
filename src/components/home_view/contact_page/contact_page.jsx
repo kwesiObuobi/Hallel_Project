@@ -9,6 +9,10 @@ const ContactPage = () => {
   return (
     <>
       <PageImg img_url={contactUsPageImg} title="Contact Us" />
+
+      <section className="home-contact container">
+        
+      </section>
     </>
   )
 }
