@@ -22,7 +22,7 @@ const StudentPage = () => {
               <img src="https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096" alt="" className="home-student-spotlight-img" />
             </div>
             <h4 className="home-student-spotlight-student">Emmanuel Kweku Godsaye-Simpson</h4>
-            <small className="home-student-spotlight-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
+            <small className="home-student-spotlight-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ratione architecto dolores ipsam minus, ab reprehenderit a praesentium nam dicta officia vitae hic debitis, libero doloremque amet ipsa at vero odio quisquam ducimus illo. Aliquam, pariatur! Exercitationem, totam iste autem dolorem est optio ipsam dolorum molestiae? Laboriosam tenetur recusandae rem.</small>
           </div>
 
           <div className="home-student-spotlight">
@@ -31,7 +31,7 @@ const StudentPage = () => {
               <img src="https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096" alt="" className="home-student-spotlight-img" />
             </div>
             <h4 className="home-student-spotlight-student">Emmanuel Kweku Godsaye-Simpson</h4>
-            <small className="home-student-spotlight-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
+            <small className="home-student-spotlight-desc">Lorem ipsum dolicing elit. Eum itaque ipnt soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
           </div>
 
           <div className="home-student-spotlight">
@@ -40,7 +40,7 @@ const StudentPage = () => {
               <img src="https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096" alt="" className="home-student-spotlight-img" />
             </div>
             <h4 className="home-student-spotlight-student">Emmanuel Kweku Godsaye-Simpson</h4>
-            <small className="home-student-spotlight-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
+            <small className="home-student-spotlight-desc">Amet consectetur adipisicing elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
           </div>
 
           <div className="home-student-spotlight">
@@ -49,7 +49,7 @@ const StudentPage = () => {
               <img src="https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096" alt="" className="home-student-spotlight-img" />
             </div>
             <h4 className="home-student-spotlight-student">Emmanuel Kweku Godsaye-Simpson</h4>
-            <small className="home-student-spotlight-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
+            <small className="home-student-spotlight-desc">Lorem ipsung elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
           </div>
 
           <div className="home-student-spotlight">
@@ -67,7 +67,7 @@ const StudentPage = () => {
               <img src="https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096" alt="" className="home-student-spotlight-img" />
             </div>
             <h4 className="home-student-spotlight-student">Emmanuel Kweku Godsaye-Simpson</h4>
-            <small className="home-student-spotlight-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
+            <small className="home-student-spotlight-desc">Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem maxime earum quis incidunt quaerat enim hic repellat, culpa recusandae a? amet consectetur adipisicing elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
           </div>
 
           <div className="home-student-spotlight">
@@ -76,7 +76,7 @@ const StudentPage = () => {
               <img src="https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096" alt="" className="home-student-spotlight-img" />
             </div>
             <h4 className="home-student-spotlight-student">Emmanuel Kweku Godsaye-Simpson</h4>
-            <small className="home-student-spotlight-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
+            <small className="home-student-spotlight-desc">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi odio dolorem quia optio laborum! adipisicing elit. Eum itaque ipsum magni sint soluta. Distinctio, tempore accusamus deserunt eos eligendi dolorum repellat repellendus porro, aliquam cum dolorem accusantium a velit, debitis fugit ullam sunt quasi omnis fugiat obcaecati aspernatur labore! Doloribus beatae nesciunt velit! Aut ipsa laborum eius animi fuga?</small>
           </div>
 
 
