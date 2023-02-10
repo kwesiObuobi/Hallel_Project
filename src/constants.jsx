@@ -248,4 +248,4 @@ const sportsSpotLights = [
   },
 ]
 
-  export {clubsAndHouses, leadership, teachers, classSpotlights}
+  export {clubsAndHouses, leadership, teachers, classSpotlights, sportsSpotLights}
