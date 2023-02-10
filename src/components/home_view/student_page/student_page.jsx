@@ -4,7 +4,7 @@ import './student_page.css'
 
 import studentPageImg from '../../../assets/images/website_images/student.jpg'
 import PageImg from '../../shared/page_img/page_img'
-import { classSpotlights } from '../../../constants'
+import { classSpotlights, sportsSpotLights } from '../../../constants'
 
 const Spotlight = ({name, imgUrl, desc, student}) => {
   return (
@@ -29,7 +29,7 @@ const StudentPage = () => {
         <h2 className="staff-section__h2">students in the spotlight</h2>
 
 
-        <h3 className="home-student-spotlight-section-h3">Class honors</h3>
+        <h3 className="home-student-spotlight-section-h3">Class Honors</h3>
         <div className="home-student-spotlights">
           {
             classSpotlights.map(({id, name, imgUrl, student, desc}) => {
@@ -46,7 +46,24 @@ const StudentPage = () => {
           }
         </div>
 
-        
+        <h3 className="home-student-spotlight-section-h3">Sports Honors</h3>
+        <div className="home-student-spotlights">
+          {
+            sportsSpotLights.map(({id, name, imgUrl, student, desc}) => {
+              return (
+                <Spotlight 
+                  key={id}
+                  name={name}
+                  imgUrl={imgUrl}
+                  student={student}
+                  desc={desc}
+                />
+              )
+            })
+          }
+        </div>
+
+
       </section>
     </>
   )
