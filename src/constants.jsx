@@ -210,4 +210,42 @@ const classSpotlights = [
   },
 ]
 
+const sportsSpotLights = [
+  {
+    id: 1,
+    name: "Best High Jumper",
+    imgUrl: "https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096",
+    student: "Emmanuel GodIs WithUs Greene",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisi Lorem, ipsum dolor sit amet consectetur adipisi Lorem, ipsum dolor sit amet consectetur adipisi"
+  },
+  {
+    id: 2,
+    name: "Best Long Jumper",
+    imgUrl: "https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096",
+    student: "Emmanuel GodIs WithUs Greene",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisi Lorem, ipsum dolor sit amet consectetur adipisi Lorem, ipsum dolor sit amet consectetur adipisi"
+  },
+  {
+    id: 3,
+    name: "Best Best Best",
+    imgUrl: "https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096",
+    student: "Emmanuel GodIs WithUs Greene",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisi Lorem, ipsum dolor sit amet consectetur adipisi Lorem, ipsum dolor sit amet consectetur adipisi"
+  },
+  {
+    id: 4,
+    name: "Best Best Best",
+    imgUrl: "https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096",
+    student: "Emmanuel GodIs WithUs Greene",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisi Lorem, ipsum dolor sit amet consectetur adipisi Lorem, ipsum dolor sit amet consectetur adipisi"
+  },
+  {
+    id: 5,
+    name: "Best Best Best",
+    imgUrl: "https://pbs.twimg.com/media/D2qtOY8WkAEnGd1?format=jpg&name=4096x4096",
+    student: "Emmanuel GodIs WithUs Greene",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisi Lorem, ipsum dolor sit amet consectetur adipisi Lorem, ipsum dolor sit amet consectetur adipisi"
+  },
+]
+
   export {clubsAndHouses, leadership, teachers, classSpotlights}
