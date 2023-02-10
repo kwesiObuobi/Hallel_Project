@@ -2,6 +2,12 @@
     margin: 4rem auto;
 }
 
+.home-student-spotlight-section-h3 {
+    margin: 5rem 0 2rem;
+    border-bottom: solid 2px var(--color-hallel-wine2);
+    padding-bottom: 0.3rem;
+}
+
 .home-student-spotlights {
     column-count: 3;
     gap: 25px;
