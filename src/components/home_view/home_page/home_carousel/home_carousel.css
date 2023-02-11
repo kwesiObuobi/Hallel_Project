@@ -6,7 +6,7 @@
 .caro__my-slider {
     max-width: 100%;
     /* height: calc(100vh * 0.80); */ /* the header is 20% vh so this should be 80%*/
-    height: 100vh;    
+    height: 100vh;   
 }
 
 .caro__swiper-slide-container {
@@ -17,8 +17,6 @@
 .caro__img-box {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: top;
     z-index: 1;
 }
 

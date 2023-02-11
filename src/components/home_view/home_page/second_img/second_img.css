@@ -6,8 +6,9 @@
 img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
     overflow: hidden;
+    object-fit: cover;
+    object-position: top;
 }
 
 
