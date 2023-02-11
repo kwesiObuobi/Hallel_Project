@@ -69,7 +69,7 @@ const Header = () => {
 
           </div>
         </div>
-        <div className='header__slogan-for-mobile'>JOY OF A SOLID CHILDHOOD FOUNDATION</div>
+        {/* <div className='header__slogan-for-mobile'>JOY OF A SOLID CHILDHOOD FOUNDATION</div> */}
 
         <nav className="header__nav" ref={navRef}>
           <div className="container header__nav-container">
@@ -92,6 +92,9 @@ const Header = () => {
           </div>
         </nav>
       </div>
+
+      {/* TESTING THIS OUT */}
+      <div className='header__slogan-for-mobile'>JOY OF A SOLID CHILDHOOD FOUNDATION</div>
     </header>
 
   )

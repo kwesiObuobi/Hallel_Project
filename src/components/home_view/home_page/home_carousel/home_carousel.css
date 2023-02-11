@@ -89,8 +89,12 @@
 
 @media screen and (max-width: 1000px) {
 
-    .caro__scroll-down-pointer, .caro__img-caption-bg-screen, .caro__overlay-img {
+    .caro__scroll-down-pointer, .caro__img-caption-bg-screen {
         display: none;
+    }
+
+    .caro__overlay-img {
+        background: linear-gradient(rgba(0, 0, 0, 0.9), transparent, transparent);
     }
 
     .caro__my-slider {
@@ -102,7 +106,12 @@
     }
 
     .caro__img {
-        object-fit: fill;
+
+
+
+        object-fit: cover;
+        object-position: top;
+
         height: 100%;
     }
 
@@ -154,5 +163,11 @@
 
     .caro__img-caption-sm-screen p {
         font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .caro__overlay-img {
+        display: none;
     }
 }

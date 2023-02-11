@@ -69,7 +69,6 @@ header {
 }
 
 .header__nav-container {
-    /* width: var(--container-width-lg); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +79,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: right;
-    /* hei   */
     list-style-type: none;
     flex-wrap: wrap;
     gap: 1rem;
@@ -96,7 +94,6 @@ header {
 }
 
 .header__nav-menu li a:hover{
-    /* color: var(--color-hallel-wine2); */
     text-decoration: underline;
 }
 
@@ -131,10 +128,13 @@ header {
 @media screen and (max-width: 1000px) {
 
     header {
-        /* height: calc((100vh * 0.2) - 30%); */
+        height: 5rem;
+    }
 
-        border: solid 1px blue;
-        /* height: 5rem; */
+    .header__logo-img {
+        height: 5rem;
+        width: 5rem;
+        object-fit: cover;
     }
 
     .header__nav-btn {
@@ -161,9 +161,10 @@ header {
 
     .header__nav {
         position: fixed;
+        z-index: 8; /*solved: the mobile slogan was still showing when the mobile nav is opened */
         top: 0;
         left: 0;
-        width: 100vw; /* t'was 100% */
+        width: 100vw;
         height: 100vh;
         display: flex;
         align-items: center;
@@ -180,8 +181,6 @@ header {
     .header__nav-menu {
         flex-direction: column;
         gap: 1rem;
-
-        border: solid 2px green;
     }
 
     .header__nav-close-btn {
@@ -204,21 +203,20 @@ header {
         font-weight: bolder;
     }
 
-    /* .header__brand-row {
-        position: relative;
-    } */
-/*     
-    .header__how-to-apply {
-        display: none;
-    } */
-
 }
 
 
 @media screen and (max-width: 600px) {
 
     header {
-        height: calc((100vh * 0.2) - 30% + 1.5rem); /* the slogan for mobile is 1.5rem height */
+        position: relative; /* cause a normal flow for the header, so that the carousel will follow it */
+        height: auto;
+        background: var(--color-light-heavy);
+    }
+
+    .header__logo-img {
+        height: 4.2rem;
+        width: 4.2rem;
     }
 
     #header__school-name {
@@ -231,7 +229,6 @@ header {
 
     #header__slogan {
         display: none;
-        margin-left: 0.5rem;
     }
 
     #header__logo {
@@ -244,12 +241,12 @@ header {
         text-align: center;
         border-top: solid 0.01rem grey; 
         border-color: rgb(161, 148, 148, 0.5);
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
         font-size: 0.6rem;
         font-weight: 500;
         opacity: 0.8;
         max-height: 1.5rem;
+        position: relative;
+        width: 100vw;
     }
 }
 
