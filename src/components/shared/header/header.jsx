@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 
 import './header.css';
-import school_logo from '../../../assets/images/school_logo.jpg';
+import school_logo from '../../../assets/images/school_logo.png';
 
 
 const Header = () => {

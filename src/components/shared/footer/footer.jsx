@@ -8,7 +8,7 @@ import instaImg from '../../../assets/images/website_images/social_media/instagr
 import linkedInImg from '../../../assets/images/website_images/social_media/linkedin.jpg';
 import twitterImg from '../../../assets/images/website_images/social_media/twitter.jpg';
 import ytdImg from '../../../assets/images/website_images/social_media/youtube.jpg';
-import schoolLogo from '../../../assets/images/school_logo.jpg';
+import schoolLogo from '../../../assets/images/school_logo.png';
 
 
 const scrollToTop = () => {
