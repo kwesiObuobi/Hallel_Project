@@ -3,6 +3,7 @@
     max-width: 100%;
     height: calc(100vh * 0.80); /* the header is 20% vh */
     position: relative;
+    
 }
 
 .page_img-box {
