@@ -3,7 +3,6 @@ header {
     z-index: 7;
     width: 100%;
     background: transparent;
-
 }
 
 .header__container {
@@ -90,12 +89,7 @@ header {
 
 .header__nav-menu li a {
     color: var(--color-white);
-    font-weight: 400;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
+    font-weight: 700;
     padding: 0.2rem;
 
     transition: all 0.1s ease-in-out;
@@ -137,26 +131,43 @@ header {
 @media screen and (max-width: 1000px) {
 
     header {
-        height: calc((100vh * 0.2) - 30%);
+        /* height: calc((100vh * 0.2) - 30%); */
+
+        border: solid 1px blue;
+        /* height: 5rem; */
     }
 
     .header__nav-btn {
         visibility: visible;
         opacity: 1;
 
+        position: absolute;
+        right: 1rem;
+        color: var(--color-hallel-orange1)
     }
+
+    .header__nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__school-name-and-motto-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 
     .header__nav {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 100vw; /* t'was 100% */
+        height: 100vh;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1rem;
         background: var(--color-hallel-orange1);
         transition: 1s;
         transform: translateY(-120vh); /*we're hiding it -11vh */
@@ -168,29 +179,17 @@ header {
 
     .header__nav-menu {
         flex-direction: column;
-        gap: 0;
-        height: 50%;
-    }
+        gap: 1rem;
 
-    .header__nav-close-btn, .header__nav-open-btn {
-        position: absolute;
+        border: solid 2px green;
     }
 
     .header__nav-close-btn {
         display: inline-block;
         color: white;
+        position: absolute;
         top: 2rem;
         right: 2rem;
-    }
-
-    .header__nav-open-btn {
-        color: var(--color-hallel-orange1);
-        top: calc((100vh * 0.2) - 0.5);
-        right: 0;
-    }
-
-    .header__nav-menu li a:hover {
-        color: var(--color--hallel-wine2);
     }
 
     .header__nav-menu li a.active::after {
@@ -205,13 +204,13 @@ header {
         font-weight: bolder;
     }
 
-    .header__brand-row {
+    /* .header__brand-row {
         position: relative;
-    }
-    
+    } */
+/*     
     .header__how-to-apply {
         display: none;
-    }
+    } */
 
 }
 
