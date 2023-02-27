@@ -16,6 +16,22 @@ const Anthem = () => {
         </div>
 
       </section>
+
+
+
+      <section className="container anthem-section">
+        <h5 className="anthem-section-h5"> • OUR DAILY ASK • </h5>
+        <h2 className="anthem-section-h2">school prayer</h2>
+        
+        <div className="anthem-section-pbox">
+          <em className="anthem-section-p">Oh! Lord</em> <br /> <br />
+          <em className="anthem-section-p">Bless our school</em> <br /> <br />
+          <em className="anthem-section-p">That working together and praying together</em> <br /> <br />
+          <em className="anthem-section-p">We may learn to serve you and serve one another</em> <br /> <br />
+          <em className="anthem-section-p">Amen!</em> <br /> <br />
+        </div>
+
+      </section>
     </div>
   )
 }
