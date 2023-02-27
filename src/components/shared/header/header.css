@@ -97,25 +97,12 @@ header {
     text-decoration: underline;
 }
 
-/* .header__nav-menu li a.active::after {
-    content: '';
-    display: block;
-    background: blue;
-    height: 5px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 1px;
-} */
-
 .header__nav-menu li a.active {
     color: var(--color-hallel-wine2);
     background-color: white;
     padding: 0.4rem;
     border-radius: 10px;
 }
-
-
 
 /* NAVBAR */
 .header__nav-btn {
@@ -135,7 +122,6 @@ header {
   
 
 @media screen and (max-width: 1000px) {
-
     header {
         height: 5rem;
     }
@@ -166,7 +152,6 @@ header {
         flex-direction: column;
         justify-content: center;
     }
-
 
     .header__nav {
         position: fixed;
@@ -211,7 +196,6 @@ header {
         padding: 0.5rem;
         font-weight: bolder;
     }
-
 }
 
 
@@ -230,8 +214,6 @@ header {
 
     #header__school-name {
         font-size: 1rem;
-
-        /* border: solid 1px blue; */
         width: max-content;
     }
 
@@ -264,11 +246,9 @@ header {
 
 
 @media screen and (max-width: 467px) {
-
     #header__school-name {
         font-size: 0.8rem;
         font-weight: bolder;
         margin-bottom: 1rem;
     }
 }
-
