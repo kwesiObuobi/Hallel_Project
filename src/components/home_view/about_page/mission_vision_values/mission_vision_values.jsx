@@ -32,7 +32,6 @@ const MissionVisionValues = () => {
           <li>Adventure</li>
         </ul>
       </div>
-      
 
     </section>
     
