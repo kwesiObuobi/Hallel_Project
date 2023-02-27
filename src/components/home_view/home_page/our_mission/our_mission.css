@@ -1,11 +1,18 @@
 .mission-container {
     margin-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mission__h3 {
     text-align: center;
     margin-bottom: 1rem;
     font-weight:normal;
+    width: 50%;
+    line-height: 2.5rem;
+    margin-bottom: 4rem;
 }
   
 .mission__p {
@@ -13,3 +20,17 @@
     margin-bottom: 4rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .mission__h3 {
+        width: 70%;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .mission__h3 {
+        width: 100%;
+        line-height: 1.5rem;
+        /* text-align: left; */
+    }
+}
