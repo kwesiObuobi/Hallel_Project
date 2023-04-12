@@ -41,8 +41,6 @@ const Header = () => {
     navRef.current.classList.contains("header__mobile_nav") ?
       setAddedMobileNavClass(true) :
         setAddedMobileNavClass(false);
-      
-      console.log(addedMobileNavClass);
   }, [addedMobileNavClass])
 
   
